@@ -1,4 +1,11 @@
+body{
+    background-color: black;
+}
 .bannerSection{
-    background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 70, 70));
+    background-image: linear-gradient(rgb(10, 10, 10), rgb(0, 50, 50) );
+    color: white;
+}
+.companySection{
+    background-image: linear-gradient(rgb(0, 50, 50), rgb(0, 30, 10));
     color: white;
 }

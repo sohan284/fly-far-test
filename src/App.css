@@ -1,33 +1,33 @@
 body{
-    background-color: black;
+    background-color: #000000;
 }
 .bannerSection{
     background: radial-gradient(circle at right center,
             rgb(43, 0, 100),
-            #000000ec 70%);
+            #000000ec 35%);
     
     color: white;
 }
 .companySection{
     background: radial-gradient(circle at right center,
             rgb(43, 0, 100),
-            #000000ec 70%);
+            #000000ec 35%);
     color: white;
 }
 .reviewSection{
     background: radial-gradient(circle at right,
     rgb(43, 0, 100),
-    #000000ec 70%);  color: white;
+    #000000ec 35%);  color: white;
 }
 .packageSection{
     background: radial-gradient(circle at  center,
     rgb(43, 0, 100),
-    rgb(12, 0, 20) 50%);  color: white;
+    #000000ec 40%);  color: white;
 }
 .contactUsSection{
     background: radial-gradient(circle at  center,
     rgb(43, 0, 100),
-    rgb(12, 0, 20) 50%);  color: white;
+    #000000ec 40%);  color: white;
 }
 .premiumButton{
     background-image: linear-gradient(to right, rgb(124, 0, 155)5%, rgb(68, 19, 201)100%);  color: white;

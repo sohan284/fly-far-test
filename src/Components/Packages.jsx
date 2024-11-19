@@ -12,7 +12,7 @@ const Packages = () => {
     }
   };
   return (
-    <div className="min-h-screen packageSection text-center px-5">
+    <div className="min-h-screen packageSection text-center px-5 pb-10">
       <div className="max-w-[1000px] mx-auto">
         <h1 className=" pt-[5%] font-extrabold font-serif text-[2rem] md:text-[3rem] max-w-[800px] mx-auto">
           Get referred to your dream job.

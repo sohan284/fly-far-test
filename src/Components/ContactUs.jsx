@@ -15,7 +15,7 @@ const ContactUs = () => {
     formData.append("Email", email);
 
     try {
-      const response = await fetch("https://script.google.com/macros/s/AKfycbzPKe47AhqL2zUE1AVp1QRzgB_cgSwFBfj_jvfod-XAqGUJiaBWHLPhQtBt4SRF-0rr/exec", {
+      await fetch("https://script.google.com/macros/s/AKfycbzPKe47AhqL2zUE1AVp1QRzgB_cgSwFBfj_jvfod-XAqGUJiaBWHLPhQtBt4SRF-0rr/exec", {
         method: "POST",
         body: formData,
       }).then(
@@ -30,7 +30,7 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="min-h-[80vh] content-center contactUsSection text-center px-5">
+    <div className="min-h-[70vh] content-center contactUsSection text-center px-5">
       <div className="container mx-auto">
         <h1 className="font-extrabold font-serif text-[2rem] md:text-[3rem] max-w-[800px] mx-auto">
           Get In Touch

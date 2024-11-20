@@ -1,78 +1,94 @@
+import { CRating } from '@coreui/react-pro';
+import Rating from './Rating';
+
 const Reviews = () => {
-    const companies = [
-      { name: "ai-right", url: "https://i.ibb.co.com/JKd7Wnf/ai-right.webp" },
-      { name: "ey", url: "https://i.ibb.co.com/P6htQBP/ey.jpg" },
-      { name: "cisco", url: "https://i.ibb.co.com/1RvDVkN/cisco.jpg" },
-      { name: "vmware", url: "https://i.ibb.co.com/tCXDXM2/vmware.jpg" },
-      { name: "citadel", url: "https://i.ibb.co.com/gg5ymnQ/citadel.jpg" },
-      { name: "oracle", url: "https://i.ibb.co.com/hmZT39f/oracle.jpg" },
-      { name: "slalom", url: "https://i.ibb.co.com/P4f5nZb/slalom.jpg" },
-      { name: "uber", url: "https://i.ibb.co.com/x3bNbPW/uber.jpg" },
-      { name: "highspot", url: "https://i.ibb.co.com/rGP0wrt/highspot.jpg" },
-      { name: "salesforce", url: "https://i.ibb.co.com/Fgsq9gR/salesforce.jpg" },
-      { name: "adobe", url: "https://i.ibb.co.com/g6bDJTG/adobe.png" },
-      {
-        name: "morgan-stanley",
-        url: "https://i.ibb.co.com/6bpKn5c/morgan-stanley.jpg",
-      },
-      {
-        name: "wells-fargo",
-        url: "https://i.ibb.co.com/N9w2Pwt/wells-fargo.png",
-      },
-      { name: "dropbox", url: "https://i.ibb.co.com/dWBqdzz/dropbox.png" },
-      {
-        name: "goldman-sachs",
-        url: "https://i.ibb.co.com/b2B9HGG/goldman-sachs.jpg",
-      },
-      { name: "splunk", url: "https://i.ibb.co.com/jJZMcDM/splunk.jpg" },
-      { name: "upwork", url: "https://i.ibb.co.com/87PSSpm/upwork.jpg" },
-      { name: "atlassian", url: "https://i.ibb.co.com/TYrtVzs/atlassian.png" },
-      { name: "pinterest", url: "https://i.ibb.co.com/5rywk4m/pinterest.jpg" },
-      { name: "target", url: "https://i.ibb.co.com/fdVrG11/target.jpg" },
-      { name: "tesla", url: "https://i.ibb.co.com/VwQr6d2/tesla.png" },
-      { name: "boeing", url: "https://i.ibb.co.com/zbCgTVg/boeing.jpg" },
-      { name: "intel", url: "https://i.ibb.co.com/DQb8kZm/intel.png" },
-      { name: "starbucks", url: "https://i.ibb.co.com/R0gmpCT/starbucks.jpg" },
-      { name: "chewy", url: "https://i.ibb.co.com/bmwj0th/chewy.jpg" },
-      { name: "ibm", url: "https://i.ibb.co.com/dm7Ms7J/ibm.jpg" },
-      { name: "comcast", url: "https://i.ibb.co.com/6X4rCS1/comcast.jpg" },
-      { name: "disney", url: "https://i.ibb.co.com/ZSbDxNP/disney.jpg" },
-      { name: "spotify", url: "https://i.ibb.co.com/Kz029GY/spotify.jpg" },
-      { name: "apple", url: "https://i.ibb.co.com/G0hyMKf/apple.jpg" },
-      { name: "google", url: "https://i.ibb.co.com/84Fb221/google.jpg" },
-      { name: "amazon-1", url: "https://i.ibb.co.com/qWJq3nR/amazon-1.jpg" },
-      { name: "microsoft", url: "https://i.ibb.co.com/qms7R28/microsoft.png" },
-      { name: "amazon", url: "https://i.ibb.co.com/8cgLSQ5/amazon.jpg" },
-      {
-        name: "dark-blue-logo",
-        url: "https://i.ibb.co.com/pyKm3Pc/dark-blue-logo.png",
-      },
-    ];
+const reviews = [
+    {
+      "name": "John Doe",
+      "designation": "Software Engineer",
+      "rating": 4,
+      "review": "Great platform with a lot of useful features. Highly recommend for anyone looking to streamline their work process!"
+    },
+    {
+      "name": "Sarah Smith",
+      "designation": "Project Manager",
+      "rating": 5,
+      "review": "Amazing experience! The interface is intuitive and the support team is incredibly responsive. Definitely exceeded my expectations."
+    },
+    {
+      "name": "Michael Brown",
+      "designation": "Data Scientist",
+      "rating": 4,
+      "review": "The tool is very helpful for managing large datasets. However, I think it could use some improvements in terms of data visualization capabilities."
+    },
+    {
+      "name": "Emily White",
+      "designation": "Product Designer",
+      "rating": 3.6,
+      "review": "Good overall, but some of the features are hard to use without a learning curve. Would love to see more tutorials."
+    },
+    {
+      "name": "David Lee",
+      "designation": "CEO",
+      "rating": 4,
+      "review": "Fantastic product that helps my team stay organized and efficient. The integrations with other tools have been a game changer for us."
+    },
+    {
+      "name": "Jessica Taylor",
+      "designation": "Marketing Director",
+      "rating": 4,
+      "review": "Very good platform with useful features, but I would appreciate more advanced reporting options."
+    },
+    {
+      "name": "James Wilson",
+      "designation": "CTO",
+      "rating": 5,
+      "review": "Exceptional service! Their cloud-based solution has helped us scale quickly. Their customer service is top-notch."
+    },
+    {
+      "name": "Olivia Harris",
+      "designation": "UX/UI Designer",
+      "rating": 3,
+      "review": "I like the layout and design of the platform, but there are some bugs that need fixing. Overall, it's a solid choice for teams."
+    },
+    {
+      "name": "Daniel Clark",
+      "designation": "Business Analyst",
+      "rating": 4,
+      "review": "Really impressed with the level of customization available. It has improved our workflow significantly, though the mobile app could be better."
+    },
+    {
+      "name": "Sophia Martinez",
+      "designation": "HR Manager",
+      "rating": 4,
+      "review": "Excellent tool for managing employee performance and reviews. Very easy to use and navigate. A great addition to our HR toolbox."
+    }
+  ]
   
-    return (
-      <div className="min-h-screen reviewSection text-center px-5">
-       <div className="container mx-auto">
-       <h1 className=" pt-[10%] font-extrabold font-serif text-[2rem] md:text-[3rem] max-w-[800px] mx-auto">
-          Get referred by employees form 1000+ companies
+
+  return (
+    <div className="min-h-[70vh] packageSection text-center px-5 py-10 ">
+      <div className="container mx-auto">
+        <h1 className=" pt-[5%] font-extrabold font-serif text-[2rem] md:text-[3rem] max-w-[800px] mx-auto">
+        What Our Customers Are Saying
         </h1>
+       
         <p className="lg:text-xl font-normal max-w-[800px] mx-auto mt-2">
-          Our referrer network is thousands strong and growing. Get referred to
-          your dream job today, by employees at your dream company.
+        Don't just take our word for it! Hear from professionals across industries who trust our product. From seamless integrations to exceptional customer support, discover how we’ve helped businesses like yours thrive. See what our users have to say about their experience with us!
         </p>
-        <div className="grid md:grid-cols-8 grid-cols-4 gap-5 mt-12">
-          {companies.map((company,index)=>
-              <div key={index} className="flex flex-col items-center bg-zinc-200 text-zinc-700 p-3 rounded-xl shadow-lg font-semibold">
-                  <div className="w-[48px] rounded-full">
-                  <img src={company.url} alt=""  className="w-full rounded-full"/>
-                  </div>
-                  <p>{company.name}</p>
-                  </div>
-          )}
+        <div className="grid md:grid-cols-3 lg:grid-cols-4 grid-cols-1 gap-3 mt-12">
+         {reviews?.map((review,index)=> <div key={index} className="text-start rounded-lg shadow-xl bg-zinc-100 text-zinc-800 p-8">
+            <h3 className="text-2xl font-semibold">{review.name}</h3>
+           <p className="text-sm">{review.designation}</p>
+           <Rating rating={review.rating}/>
+            <p className="text-sm mt-5">
+            {review.review}
+            </p>
+          </div>)}
         </div>
-       </div>
       </div>
-    );
-  };
-  
-  export default Reviews;
-  
+    </div>
+  );
+};
+
+export default Reviews;

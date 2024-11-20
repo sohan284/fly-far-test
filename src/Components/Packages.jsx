@@ -39,8 +39,8 @@ const Packages = () => {
             Yearly <span className="text-xs ml-2 bg-blue-600 p-0.5 rounded-md px-1.5 text-zinc-100 font-medium">Save 40%</span>
           </button>
         </div>
-        <div className="grid md:grid-cols-2 grid-cols-1 gap-10 mt-12">
-          <div className="text-start rounded-lg shadow-xl bg-zinc-100 text-zinc-800 p-8 mx-5">
+        <div className="grid md:grid-cols-2 grid-cols-1 lg:gap-10 gap-5 mt-12">
+          <div className="text-start rounded-lg shadow-xl bg-zinc-100 text-zinc-800 lg:p-8 p-3 mx-5">
             <h3 className="text-2xl font-semibold">Basic</h3>
             <h1 className="text-lg my-5">
               <span className="text-[48px] font-bold">$0</span>/mo
@@ -50,7 +50,7 @@ const Packages = () => {
               request to one company, once a week. This is for those who have no
               need for a new job any time soon.
             </p>
-            <button className="w-full border border-zinc-800 rounded-xl my-5 p-1 font-medium hover:bg-zinc-300">
+            <button className="w-full border border-zinc-800 rounded-xl my-4 p-1 font-medium hover:bg-zinc-300">
               Sign Up
             </button>
             <p className="flex items-center font-semibold text-[14px] my-2">
@@ -158,7 +158,7 @@ const Packages = () => {
               Email support
             </p>
           </div>
-          <div className="text-start rounded-lg shadow-xl bg-zinc-100 text-zinc-800 p-8 mx-5">
+          <div className="text-start rounded-lg shadow-xl bg-zinc-100 text-zinc-800 lg:p-8 p-3 mx-5">
             <h3 className="text-2xl font-semibold premiumText">Premium</h3>
             <h1 className="text-lg my-5">
               <span className="text-[48px] font-bold">${amount}</span>/mo
@@ -168,7 +168,7 @@ const Packages = () => {
               start getting referred to multiple roles across several companies
               starting today.
             </p>
-            <button className="w-full rounded-xl my-5 p-1 font-medium hover:scale-105 hover:ease-linear transition-all duration-300 bg-gradient-to-r from-[#7c009b] to-blue-500 text-white">
+            <button className="w-full rounded-xl my-4 p-1 font-medium hover:scale-105 hover:ease-linear transition-all duration-300 bg-gradient-to-r from-[#7c009b] to-blue-500 text-white">
               Subscribe
             </button>
 

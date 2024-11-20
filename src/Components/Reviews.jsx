@@ -14,7 +14,7 @@ const Reviews = () => {
     },
   });
   return (
-    <div className="min-h-[70vh] packageSection text-center px-5 py-10 ">
+    <div className="min-h-[70vh] reviewSection text-center px-5 py-10 ">
       <div className="container mx-auto">
         <h1 data-aos="fade-up"  className=" pt-[5%] font-extrabold font-serif text-[2rem] md:text-[3rem] max-w-[800px] mx-auto">
         What Our Customers Are Saying

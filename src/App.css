@@ -2,22 +2,22 @@ body{
     background-color: #000000;
 }
 .bannerSection{
-    background: radial-gradient(circle at right center,
+    background: radial-gradient(circle at center,
             rgb(43, 0, 100),
-            #000000ec 35%);
+            #000000ec 50%);
     
     color: white;
 }
 .companySection{
-    background: radial-gradient(circle at right center,
+    background: radial-gradient(circle at right bottom ,
             rgb(43, 0, 100),
-            #000000ec 35%);
+            #000000ec 50%);
     color: white;
 }
 .reviewSection{
-    background: radial-gradient(circle at right,
+    background: radial-gradient(circle at right top,
     rgb(43, 0, 100),
-    #000000ec 35%);  color: white;
+    #000000ec 40%);  color: white;
 }
 .packageSection{
     background: radial-gradient(circle at  center,
@@ -29,6 +29,16 @@ body{
     rgb(43, 0, 100),
     #000000ec 40%);  color: white;
 }
+.emailSection{
+    background-image: linear-gradient(to right, rgb(149, 100, 161)5%, rgb(161, 138, 223)100%);  color: white;
+}
+.emailShape {
+    background-image: url('../src/assets/emailShape.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
 .premiumButton{
     background-image: linear-gradient(to right, rgb(124, 0, 155)5%, rgb(68, 19, 201)100%);  color: white;
 }

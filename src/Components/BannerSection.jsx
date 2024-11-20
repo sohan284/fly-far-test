@@ -1,4 +1,3 @@
-import React from "react";
 import airobot from '../assets/ai-robot.gif'
 const BannerSection = () => {
   return (

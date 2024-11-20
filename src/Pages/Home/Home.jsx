@@ -1,5 +1,4 @@
-import React from 'react';
-import BannerSection from '../../Components/bannerSection';
+import BannerSection from '../../Components/BannerSection';
 import Footer from '../../Shared/Footer';
 import CompanySection from '../../Components/CompanySection';
 import Reviews from '../../Components/Reviews';

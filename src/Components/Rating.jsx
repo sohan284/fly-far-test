@@ -1,5 +1,3 @@
-import React from 'react';
-
 function Rating({ rating = 0 }) {
   const renderStars = (rating) => {
     const fullStars = Math.floor(parseFloat(rating));

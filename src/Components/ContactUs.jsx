@@ -1,37 +1,33 @@
+import axios from "axios";
 import { useState } from "react";
+import baseUrl from "../api/baseUrl";
 
 const ContactUs = () => {
   const [email, setEmail] = useState("");
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-
-    if (!email) {
-      alert("Please enter a valid email address.");
-      return;
-    }
-
+  const handleSubmit = async () => {
     const formData = new FormData();
     formData.append("Email", email);
-
+  
     try {
-      await fetch("https://script.google.com/macros/s/AKfycbzPKe47AhqL2zUE1AVp1QRzgB_cgSwFBfj_jvfod-XAqGUJiaBWHLPhQtBt4SRF-0rr/exec", {
-        method: "POST",
-        body: formData,
-      }).then(
-        setEmail('')
-      )
-      
+      await axios.post(`${baseUrl}/users`, { email });
+      await fetch(
+        "https://script.google.com/macros/s/AKfycbzPKe47AhqL2zUE1AVp1QRzgB_cgSwFBfj_jvfod-XAqGUJiaBWHLPhQtBt4SRF-0rr/exec",
+        {
+          method: "POST",
+          body: formData,
+        }
+      );
     } catch (error) {
-      console.error("Error submitting email:", error);
+      console.error("Error submitting email and creating user:", error);
     }
-
-    setEmail("");  // Clear the email input field
+  
+    setEmail(""); 
   };
 
   return (
-    <div className="min-h-[70vh] content-center contactUsSection text-center px-5">
-      <div className="container mx-auto">
+    <div  className="min-h-[70vh] content-center contactUsSection text-center px-5">
+      <div data-aos="fade-up" className="container mx-auto">
         <h1 className="font-extrabold font-serif text-[2rem] md:text-[3rem] max-w-[800px] mx-auto">
           Get In Touch
         </h1>

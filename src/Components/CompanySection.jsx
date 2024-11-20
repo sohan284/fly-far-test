@@ -6,11 +6,9 @@ import { useQuery } from "@tanstack/react-query";
 const CompanySection = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const {
-    isLoading,
     data = [],
-    refetch,
   } = useQuery({
-    queryKey: ["userOrders"],
+    queryKey: ["companies"],
     queryFn: async () => {
       const response = await axios.get(`${baseUrl}/companies`);
       return response.data.data;
@@ -23,14 +21,14 @@ const CompanySection = () => {
   return (
     <div className="min-h-screen companySection text-center px-5">
       <div className="container mx-auto">
-        <h1 className=" pt-[5%] font-extrabold font-serif text-[2rem] md:text-[3rem] max-w-[800px] mx-auto">
+        <h1 data-aos="fade-up" className=" pt-[5%] font-extrabold font-serif text-[2rem] md:text-[3rem] max-w-[800px] mx-auto">
           Get referred by employees form 1000+ companies
         </h1>
-        <p className="lg:text-xl font-normal max-w-[800px] mx-auto mt-2">
+        <p data-aos="fade-up" className="lg:text-xl font-normal max-w-[800px] mx-auto mt-2">
           Our referrer network is thousands strong and growing. Get referred to
           your dream job today, by employees at your dream company.
         </p>
-        <div className="relative flex justify-end mt-12">
+        <div data-aos="fade-up" className="relative flex justify-end mt-12">
           <input
             type="text"
             placeholder="Search Company..."
@@ -42,7 +40,7 @@ const CompanySection = () => {
         </div>
         <div className="grid md:grid-cols-5 lg:grid-cols-8 grid-cols-2 gap-5 mt-5">
           {filteredCompanies.slice(0,32).map((company, index) => (
-            <div
+            <div data-aos="zoom-in"
               key={index}
               className="flex flex-col items-center bg-zinc-200 text-zinc-700 p-3 rounded-xl shadow-lg font-semibold"
             >

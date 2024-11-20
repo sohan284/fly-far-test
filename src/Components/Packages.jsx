@@ -8,16 +8,15 @@ const Packages = () => {
     setActive(value);
     {value === "Yearly"?
         setAmount(20) : setAmount(12)
-
     }
   };
   return (
     <div className="min-h-screen packageSection text-center px-5 pb-10">
-      <div className="max-w-[1000px] mx-auto">
+      <div data-aos="fade-up" className="max-w-[1000px] mx-auto">
         <h1 className=" pt-[5%] font-extrabold font-serif text-[2rem] md:text-[3rem] max-w-[800px] mx-auto">
           Get referred to your dream job.
         </h1>
-        <p className="lg:text-xl font-normal max-w-[800px] mx-auto mt-2">
+        <p  className="lg:text-xl font-normal max-w-[800px] mx-auto mt-2">
           Let our platform do the heavy lifting by connecting you with thousands
           of employees, who want to refer you.
         </p>
@@ -40,7 +39,7 @@ const Packages = () => {
           </button>
         </div>
         <div className="grid md:grid-cols-2 grid-cols-1 lg:gap-10 gap-5 mt-12">
-          <div className="text-start rounded-lg shadow-xl bg-zinc-100 text-zinc-800 lg:p-8 p-3 mx-5">
+          <div data-aos="zoom-in" className="text-start rounded-lg shadow-xl bg-zinc-100 text-zinc-800 lg:p-8 p-3 mx-5">
             <h3 className="text-2xl font-semibold">Basic</h3>
             <h1 className="text-lg my-5">
               <span className="text-[48px] font-bold">$0</span>/mo
@@ -158,7 +157,7 @@ const Packages = () => {
               Email support
             </p>
           </div>
-          <div className="text-start rounded-lg shadow-xl bg-zinc-100 text-zinc-800 lg:p-8 p-3 mx-5">
+          <div data-aos="zoom-in" className="text-start rounded-lg shadow-xl bg-zinc-100 text-zinc-800 lg:p-8 p-3 mx-5">
             <h3 className="text-2xl font-semibold premiumText">Premium</h3>
             <h1 className="text-lg my-5">
               <span className="text-[48px] font-bold">${amount}</span>/mo

@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="px-10">
+    <div data-aos="zoom-in" className="px-10">
         <div className=" px-10 text-zinc-200 text-center container mx-auto bg-zinc-800 my-12 rounded-3xl pt-[5%] pb-[2%]">
-      <div className="grid md:grid-cols-2">
+      <div  className="grid md:grid-cols-2">
         <div>
           <h1 className="font-extrabold text-start font-serif text-[1.5rem] ">
             Refer-AI

@@ -32,7 +32,7 @@ const CompanySection = () => {
           <input
             type="text"
             placeholder="Search Company..."
-            className="md:w-72 py-1.5 pl-2 border border-zinc-300 rounded-md focus:outline-none focus:border-purple-400 text-purple-500"
+            className="md:w-72 py-1.5 pl-2 border bg-zinc-800 border-zinc-300 rounded-md focus:outline-none focus:border-purple-400 text-purple-500"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
           />
@@ -42,7 +42,7 @@ const CompanySection = () => {
           {filteredCompanies.slice(0,32).map((company, index) => (
             <div data-aos="zoom-in"
               key={index}
-              className="flex flex-col items-center bg-zinc-200 text-zinc-700 p-3 rounded-xl shadow-lg font-semibold"
+              className="flex flex-col items-center bg-zinc-900 text-white p-3 rounded-xl shadow-lg font-semibold"
             >
               <div className="w-[48px] rounded-full">
                 <img src={company.url} alt="" className="w-full rounded-full" />

@@ -39,7 +39,7 @@ const Packages = () => {
           </button>
         </div>
         <div className="grid md:grid-cols-2 grid-cols-1 lg:gap-10 gap-5 mt-12">
-          <div data-aos="zoom-in" className="text-start rounded-lg shadow-xl bg-zinc-100 text-zinc-800 lg:p-8 p-3 mx-5">
+          <div data-aos="zoom-in" className="text-start rounded-lg shadow-xl bg-zinc-900  text-zinc-100 lg:p-8 p-3 mx-5">
             <h3 className="text-2xl font-semibold">Basic</h3>
             <h1 className="text-lg my-5">
               <span className="text-[48px] font-bold">$0</span>/mo
@@ -49,7 +49,7 @@ const Packages = () => {
               request to one company, once a week. This is for those who have no
               need for a new job any time soon.
             </p>
-            <button className="w-full border border-zinc-800 rounded-xl my-4 p-1 font-medium hover:bg-zinc-300">
+            <button className="w-full border border-zinc-100 rounded-xl my-4 p-1 font-medium hover:bg-zinc-300">
               Sign Up
             </button>
             <p className="flex items-center font-semibold text-[14px] my-2">
@@ -157,7 +157,7 @@ const Packages = () => {
               Email support
             </p>
           </div>
-          <div data-aos="zoom-in" className="text-start rounded-lg shadow-xl bg-zinc-100 text-zinc-800 lg:p-8 p-3 mx-5">
+          <div data-aos="zoom-in" className="text-start rounded-lg shadow-xl bg-zinc-900 text-zinc-100 lg:p-8 p-3 mx-5">
             <h3 className="text-2xl font-semibold premiumText">Premium</h3>
             <h1 className="text-lg my-5">
               <span className="text-[48px] font-bold">${amount}</span>/mo

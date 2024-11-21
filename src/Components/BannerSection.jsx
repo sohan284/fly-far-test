@@ -4,6 +4,22 @@ import animationData from '../assets/airobot.json'; // Ensure this path is corre
 const BannerSection = () => {
   return (
     <div className="min-h-screen bannerSection text-white flex flex-col text-center">
+    <div className="area">
+        {" "}
+        {/* Fixed area covering full viewport */}
+        <ul className="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
       <h1 className="pt-[5%] font-extrabold font-serif text-[2rem] md:text-[3rem]">
         Refer-AI
       </h1>

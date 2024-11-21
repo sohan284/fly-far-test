@@ -42,12 +42,14 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="min-h-[70vh] mt-10 content-center contactUsSection text-center px-5">
+    <div className="min-h-[70vh] pt-10 content-center text-center px-5">
+     
       <div data-aos="zoom-in" className="container mx-auto">
-        <h1 className="font-extrabold font-serif text-[2rem] md:text-[3rem] max-w-[800px] mx-auto">
+        <h1 className="font-extrabold text-white font-serif text-[2rem] md:text-[3rem] max-w-[800px] mx-auto">
           Get In Touch
         </h1>
-        <div className="emailSection rounded-3xl">
+        <div className="emailSection rounded-3xl px-3">
+      
           <div className="flex justify-center py-12 emailShape items-center gap-5 mt-12">
             <div>
               <h4 className="text-black mb-10 text-2xl font-medium max-w-[400px]">

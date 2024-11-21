@@ -1,21 +1,37 @@
-import BannerSection from '../../Components/BannerSection';
-import Footer from '../../Shared/Footer';
-import CompanySection from '../../Components/CompanySection';
-import Reviews from '../../Components/Reviews';
-import Packages from '../../Components/Packages';
-import ContactUs from '../../Components/ContactUs';
+import Footer from "../../Shared/Footer";
+import CompanySection from "../../Components/CompanySection";
+import Reviews from "../../Components/Reviews";
+import Packages from "../../Components/Packages";
+import ContactUs from "../../Components/ContactUs";
+import BannerSection from "../../Components/bannerSection";
 
 const Home = () => {
-    return (
-        <div>
-            <BannerSection/>
-            <CompanySection/>
-            <Reviews/>
-            <Packages/>
-            <ContactUs/>
-            <Footer/>
-        </div>
-    );
+  return (
+    <div>
+      <div className="area">
+        {" "}
+        {/* Fixed area covering full viewport */}
+        <ul className="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <BannerSection />
+      <CompanySection />
+      <Reviews />
+      <Packages />
+      <ContactUs />
+      <Footer />
+    </div>
+  );
 };
 
 export default Home;

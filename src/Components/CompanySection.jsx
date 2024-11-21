@@ -19,7 +19,7 @@ const CompanySection = () => {
     company.name?.toLowerCase().includes(searchQuery.toLowerCase())
   );
   return (
-    <div className="min-h-screen companySection text-center px-5">
+    <div className="min-h-screen companySection text-center p-5 ">
       <div className="container mx-auto">
         <h1 data-aos="fade-up" className=" pt-[5%] font-extrabold font-serif text-[2rem] md:text-[3rem] max-w-[800px] mx-auto">
           Get referred by employees form 1000+ companies
@@ -38,11 +38,11 @@ const CompanySection = () => {
           />
           <FaSearch className="absolute top-3 right-3 text-purple-400" />
         </div>
-        <div className="grid md:grid-cols-5 lg:grid-cols-8 grid-cols-2 gap-5 mt-5">
+        <div className="grid md:grid-cols-5 lg:grid-cols-8 grid-cols-3 gap-5 mt-5">
           {filteredCompanies.slice(0,32).map((company, index) => (
             <div data-aos="zoom-in"
               key={index}
-              className="flex flex-col items-center bg-zinc-900 text-white p-3 rounded-xl shadow-lg font-semibold"
+              className="flex flex-col items-center  text-white p-3 rounded-xl shadow-lg font-semibold"
             >
               <div className="w-[48px] rounded-full">
                 <img src={company.url} alt="" className="w-full rounded-full" />

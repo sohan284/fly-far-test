@@ -3,7 +3,7 @@ import animationData from '../assets/airobot.json'; // Ensure this path is corre
 
 const BannerSection = () => {
   return (
-    <div className="min-h-screen bannerSection text-white flex flex-col text-center">
+    <div className="lg:min-h-screen bannerSection text-white flex flex-col text-center">
     <div className="area">
         {" "}
         {/* Fixed area covering full viewport */}

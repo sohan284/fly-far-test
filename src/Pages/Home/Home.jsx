@@ -4,6 +4,7 @@ import Reviews from "../../Components/Reviews";
 import Packages from "../../Components/Packages";
 import ContactUs from "../../Components/ContactUs";
 import BannerSection from '../../Components/BannerSection';
+import ResumeSection from "../../Components/ResumeSection";
 const Home = () => {
   return (
     <div>
@@ -25,6 +26,7 @@ const Home = () => {
       </div>
       <BannerSection />
       <CompanySection />
+      <ResumeSection/>
       <Reviews />
       <Packages />
       <ContactUs />

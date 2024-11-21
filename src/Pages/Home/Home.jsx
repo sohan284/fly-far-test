@@ -3,8 +3,7 @@ import CompanySection from "../../Components/CompanySection";
 import Reviews from "../../Components/Reviews";
 import Packages from "../../Components/Packages";
 import ContactUs from "../../Components/ContactUs";
-import BannerSection from "../../Components/bannerSection";
-
+import BannerSection from '../../Components/BannerSection';
 const Home = () => {
   return (
     <div>

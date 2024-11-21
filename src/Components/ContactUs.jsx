@@ -42,20 +42,20 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="min-h-[70vh] pt-10 content-center text-center px-5">
+    <div className=" pt-10 content-center text-center px-5">
      
       <div data-aos="zoom-in" className="container mx-auto">
         <h1 className="font-extrabold text-white font-serif text-[2rem] md:text-[3rem] max-w-[800px] mx-auto">
           Get In Touch
         </h1>
-        <div className="emailSection rounded-3xl px-3">
+        <div className="bg-[#35353586]  mx-auto from-[#36043675]  via-[#1b0035] to-[#00002791] rounded-3xl mt-3 px-3">
       
-          <div className="flex justify-center py-12 emailShape items-center gap-5 mt-12">
+          <div className="flex justify-center py-8 emailShape items-center gap-5 mt-3">
             <div>
-              <h4 className="text-black mb-10 text-2xl font-medium max-w-[400px]">
+              <h4 className="text-zinc-200 mb-10 text-2xl font-medium max-w-[400px]">
                 We don't judge you on your past work, what matters is your intent for the present and attitude for future.
               </h4>
-              <p className="text-black font-thin my-2 max-w-[400px]">Drop your email to us and we will find you with opportunities that match your ambitions!</p>
+              <p className="text-zinc-300 font-thin my-2 max-w-[400px]">Drop your email to us and we will find you with opportunities that match your ambitions!</p>
               
               {/* Email input field */}
               <input
@@ -71,7 +71,7 @@ const ContactUs = () => {
 
               {/* Submit button */}
               <input
-                className="max-w-[400px] bg-black uppercase text-white w-full p-3 font-medium hover:opacity-85 mt-5 rounded-lg"
+                className="max-w-[400px] bg-[#4747472a] border-zinc-200 border hover:bg-zinc-900 uppercase text-white w-full p-3 font-medium hover:opacity-85 mt-5 rounded-lg"
                 type="submit"
                 value="Submit"
                 onClick={handleSubmit}

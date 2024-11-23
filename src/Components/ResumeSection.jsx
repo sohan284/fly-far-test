@@ -21,9 +21,9 @@ const ResumeSection = () => {
           <li></li>
         </ul>
       </div>
-      <div className="bg-gradient-to-t to-[#151577] p-2 from-[#650094]">
+      <div className="bg-gradient-to-t to-[#21007a] p-2 from-[#006432]">
         <Marquee>
-          <p className="font-bold text-lg">
+          <p className="font-bold text-[16px] text-[wheat] uppercase">
             {" "}
             <span className="text-yellow-400">★★★</span>Request Job referrals in
             seconds<span className="text-yellow-400">★★★</span> Request Job
@@ -39,11 +39,11 @@ const ResumeSection = () => {
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-2 py-20">
         <div>
-          <div className="text-center  max-w-[500px] mx-auto">
-            <h1 className=" font-bold font-serif text-[2rem] md:text-[3rem]">
-              Perfect your resume with ReferAi
+          <div className="text-center  max-w-[700px] mx-auto">
+            <h1 className=" font-bold text-[#EBFE19] font-serif text-[32px]">
+              Perfect your resume with ReferAI
             </h1>
-            <h2 className="mt-[1%] text-wrap">
+            <h2 className="mt-[1%] text-[wheat] text-[20px] font-[300] text-wrap">
               Our AI feedback tool will help you create a resume that will get
               you noticed by recruiters and hiring managers. Our in house ATS
               optimized resume builder will help you create a resume that is
@@ -57,9 +57,9 @@ const ResumeSection = () => {
           </div>
         </div>
       </div>
-      <div className=" bg-gradient-to-t to-[#601577] p-2 from-[#02006e]">
+      <div className=" bg-gradient-to-t from-[#21007a] p-2 to-[#006432]">
         <Marquee>
-          <p className="font-bold text-lg">
+          <p className="font-bold text-[16px] uppercase text-[wheat]">
             {" "}
             <span className="text-yellow-400">★★★</span>Request Job referrals in
             seconds<span className="text-yellow-400">★★★</span> Request Job

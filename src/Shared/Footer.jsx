@@ -3,13 +3,13 @@ import React from "react";
 const Footer = () => {
   return (
     <div data-aos="zoom-in" className="px-10">
-        <div className=" px-10 text-zinc-200 text-center container mx-auto bg-[#35353586] my-12 rounded-3xl pt-[5%] pb-[2%]">
+        <div className=" px-10 text-[#EBFE19] text-center container mx-auto bg-[#35353586] my-12 rounded-3xl pt-[5%] pb-[2%]">
       <div  className="grid md:grid-cols-2">
         <div>
-          <h1 className="font-extrabold text-start font-serif text-[1.5rem] ">
+          <h1 className="font-extrabold text-start font-serif text-[32px] ">
             Refer-AI
           </h1>
-          <h2 className="mt-[3%] text-start font-normal text-[1.5rem] text-wrap">
+          <h2 className="mt-[3%] text-start text-[wheat] font-normal text-[20px] text-wrap">
             Request job referrals <br /> in seconds
           </h2>
         </div>

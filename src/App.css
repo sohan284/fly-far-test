@@ -1,36 +1,39 @@
 body{
     background-color: #000000;
+    color: wheat;
 }
 /* .bannerSection{
     background: radial-gradient(circle at center,
-            rgb(43, 0, 100),
+            #006432,
             #000000ec 50%);
     
     color: white;
 } */
+
 .companySection{
     background: radial-gradient(circle at right center ,
-            rgb(43, 0, 100),
-            #000000ec 30%);
-    color: white;
+            #7a6e00,#006432 30%,
+            #000000ec 80%);
+    color: wheat;
 }
 .reviewSection{
-    background: radial-gradient(circle at center,
-    rgb(43, 0, 100),
-    #000000ec 40%);  color: white;
+  background: radial-gradient(circle at center , #006432,
+  #000000ec 40%);
+   color: white;
 }
 .packageSection{
     background: radial-gradient(circle at  center,
-    rgb(43, 0, 100),
+    
+    #006432,
     #000000ec 40%);  color: white;
 }
 .contactUsSection{
     background: radial-gradient(circle at  center,
-    rgb(43, 0, 100),
+    #006432,
     #000000ec 40%);  color: white;
 }
 .emailSection{
-    background-image: linear-gradient(to right, rgb(140, 72, 156)55%, rgb(100, 98, 212)100%);  color: white;
+    background-image: linear-gradient(to right, rgb(150, 156, 72)55%, rgb(98, 212, 136)100%);  color: white;
 }
 /* .emailShape {
     background-image: url('../src/assets/emailShape.png');
@@ -40,10 +43,10 @@ body{
 } */
 
 .premiumButton{
-    background-image: linear-gradient(to right, rgb(124, 0, 155)5%, rgb(68, 19, 201)100%);  color: white;
+    background-image: linear-gradient(to right, #006432 5%, #21007a 100%);  color: white;
 }
 .premiumText {
-    background-image: linear-gradient(to right, rgb(199, 77, 230)5%, rgb(129, 80, 243)100%);
+    background-image: linear-gradient(to right, #ecdd00 5%, rgb(131, 202, 0)100%);
     -webkit-background-clip: text; 
     color: transparent;
 }
@@ -54,7 +57,7 @@ body{
     width: 100vw; 
     height: 100vh; 
     z-index: -10; 
-    background: linear-gradient(to top right,  #2F004D, #08011f);
+    background: linear-gradient(to top right,  #006432, #001950);
     background-size: cover; 
     background-position: center;  
   }

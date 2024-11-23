@@ -31,7 +31,7 @@ const Reviews = () => {
       <div className="container mx-auto">
         <h1
           data-aos="fade-up"
-          className="pt-[8%] font-extrabold font-serif text-[2rem] md:text-[3rem] max-w-[800px] mx-auto"
+          className="pt-[8%] text-[#EBFE19] font-extrabold font-serif text-[32px] max-w-[800px] mx-auto"
         >
           "Scaling Excellence, Elevating Success"
         </h1>
@@ -44,15 +44,15 @@ const Reviews = () => {
             className="bg-[#4747472a] p-6 rounded-3xl shadow-2xl transform transition-all hover:scale-105"
             data-aos="fade-up"
           >
-            <p data-aos="fade-up" className="text-lg font-semibold text-white uppercase tracking-wider">
+            <p data-aos="fade-up" className="text-lg font-semibold text-[wheat] uppercase tracking-wider">
               Refers
             </p>
-            <h1  className="text-6xl font-extrabold text-white mt-2">
+            <h1  className="text-6xl font-extrabold text-[#2a7dca] mt-2">
               {/* Play the count-up only when it's in view */}
               {refersInView && <CountUp end={10} delay={1} />}k
-              <span className="text-gray-100 text-4xl">+</span>
+              <span className=" text-4xl">+</span>
             </h1>
-            <p data-aos="fade-up" className="text-lg mt-4 text-gray-200 opacity-80">
+            <p data-aos="fade-up" className="text-lg mt-4 text-[20px] font-[300] text-[wheat] opacity-80">
               We've successfully managed over 10,000 referrals, demonstrating
               our extensive experience and commitment to delivering high-quality
               services with precision and care.
@@ -65,14 +65,14 @@ const Reviews = () => {
             ref={companiesRef} // Attach ref to the "Companies" section
             data-aos="fade-up"
           >
-            <p data-aos="fade-up" className="text-lg font-semibold text-white uppercase tracking-wider">
+            <p data-aos="fade-up" className="text-lg font-semibold text-[wheat] uppercase tracking-wider">
               Companies
             </p>
-            <h1 className="text-6xl font-extrabold text-white mt-2">
+            <h1 className="text-6xl font-extrabold text-[#2a7dca] mt-2">
               {/* Play the count-up only when it's in view */}
               {companiesInView && <CountUp end={1000} delay={1} />}+
             </h1>
-            <p data-aos="fade-up" className="text-lg mt-4 text-gray-200 opacity-80">
+            <p data-aos="fade-up" className="text-[20px] font-[300] mt-4 text-[wheat] opacity-80">
               We proudly serve over 1000+ companies worldwide, providing
               exceptional support and tailored solutions that exceed
               expectations and foster long-lasting relationships.
@@ -82,14 +82,14 @@ const Reviews = () => {
 
         <h1
           data-aos="fade-up"
-          className="pt-[5%] font-extrabold font-serif text-[2rem] md:text-[3rem] max-w-[800px] mx-auto"
+          className="pt-[5%] font-extrabold text-[#EBFE19] font-serif text-[32px] max-w-[700px] mx-auto"
         >
           What Our Customers Are Saying
         </h1>
 
         <p
           data-aos="fade-up"
-          className="lg:text-xl font-normal max-w-[800px] mx-auto mt-2"
+          className="text-[20px] text-[wheat] font-[300] max-w-[700px] mx-auto mt-2"
         >
           Don't just take our word for it! Hear from professionals across
           industries who trust our product. From seamless integrations to
@@ -104,10 +104,10 @@ const Reviews = () => {
               data-aos="zoom-in"
               className="text-start h-[300px] w-[250px] mx-5 overflow-hidden rounded-lg shadow-xl bg-[#4747472a] text-white p-5"
             >
-              <h3 className="text-2xl font-semibold">{review.name}</h3>
-              <p className="text-sm">{review.designation}</p>
+              <h3 className="text-[20px] font-semibold text-blue-400">{review.name}</h3>
+              <p className="text-sm text-yellow-500">{review.designation}</p>
               <Rating rating={review.rating} />
-              <p className="text-sm mt-5">{review.review}</p>
+              <p className="text-[16px] font-[300] mt-5 text-[wheat]">{review.review}</p>
             </div>
           ))}
         </Marquee>

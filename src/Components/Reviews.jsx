@@ -89,7 +89,7 @@ const Reviews = () => {
 
         <p
           data-aos="fade-up"
-          className="text-[20px] text-[wheat] font-[300] max-w-[700px] mx-auto mt-2"
+          className="text-[20px] text-[wheat] font-[300] max-w-[700px] px-3 mx-auto mt-2"
         >
           Don't just take our word for it! Hear from professionals across
           industries who trust our product. From seamless integrations to

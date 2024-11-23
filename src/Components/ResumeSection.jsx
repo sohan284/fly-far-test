@@ -37,7 +37,7 @@ const ResumeSection = () => {
           </p>{" "}
         </Marquee>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-2 py-20">
+      <div className="grid grid-cols-1 lg:grid-cols-2 py-20 px-5">
         <div>
           <div className="text-center  max-w-[700px] mx-auto">
             <h1 className=" font-bold text-[#EBFE19] font-serif text-[32px]">

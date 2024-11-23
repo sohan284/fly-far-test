@@ -63,7 +63,7 @@ const BannerSection = () => {
   };
 
   return (
-    <div className="min-h-screen bannerSection text-white lg:relative flex flex-col text-center">
+    <div className="min-h-screen bannerSection text-white flex flex-col text-center">
       <div className="area">
         {" "}
         {/* Fixed area covering full viewport */}
@@ -109,7 +109,7 @@ const BannerSection = () => {
 
       <button onClick={handleClickOpen} className="bg-[#EBFE19] transition-transform ease-linear text-black w-[300px] uppercase mt-10 rounded-full p-3 text-[16px] mx-auto font-bold hover:scale-105">Get Referred Now</button>
       <div className="flex justify-center">
-        <div className="rounded-full lg:w-[35%] w-[80%] flex justify-center lg:absolute bottom-0">
+        <div className="rounded-full lg:w-[30%] md:w-[50%] w-[80%] flex justify-center">
           <Lottie animationData={animationData} loop={true} />
         </div>
       </div>

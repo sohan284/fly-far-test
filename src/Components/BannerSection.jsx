@@ -63,7 +63,7 @@ const BannerSection = () => {
   };
 
   return (
-    <div className="lg:min-h-screen bannerSection text-white flex flex-col text-center">
+    <div className="min-h-screen bannerSection text-white lg:relative flex flex-col text-center">
       <div className="area">
         {" "}
         {/* Fixed area covering full viewport */}
@@ -84,7 +84,7 @@ const BannerSection = () => {
         Refer-AI
       </h1> */}
 
-      <h2 className="mt-[10%] text-[wheat] font-bold text-[48px] text-wrap">
+      <h2 className="md:mt-[2%] mt-[10%] text-[wheat] font-bold text-[48px] text-wrap">
         Request job referrals in <br /><span className="text-[#EBFE19]"> seconds</span>
       </h2>
 
@@ -109,7 +109,7 @@ const BannerSection = () => {
 
       <button onClick={handleClickOpen} className="bg-[#EBFE19] transition-transform ease-linear text-black w-[300px] uppercase mt-10 rounded-full p-3 text-[16px] mx-auto font-bold hover:scale-105">Get Referred Now</button>
       <div className="flex justify-center">
-        <div className="rounded-full w-[80%] flex justify-center">
+        <div className="rounded-full lg:w-[35%] w-[80%] flex justify-center lg:absolute bottom-0">
           <Lottie animationData={animationData} loop={true} />
         </div>
       </div>

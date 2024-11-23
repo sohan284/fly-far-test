@@ -84,7 +84,7 @@ const BannerSection = () => {
         Refer-AI
       </h1> */}
 
-      <h2 className="md:mt-[2%] mt-[10%] text-[wheat] font-bold text-[48px] text-wrap">
+      <h2 className="md:mt-[2%] mt-[10%] text-[wheat] font-bold text-[32px] lg:text-[48px] text-wrap">
         Request job referrals in <br /><span className="text-[#EBFE19]"> seconds</span>
       </h2>
 

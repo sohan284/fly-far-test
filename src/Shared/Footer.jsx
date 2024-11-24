@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div data-aos="zoom-in" className="px-10">
-        <div className=" px-10 text-[#EBFE19] text-center container mx-auto bg-[#35353586] my-12 rounded-3xl pt-[5%] pb-[2%]">
+        <div className=" px-10 text-[#ffec42] text-center container mx-auto bg-[#35353586] my-12 rounded-3xl pt-[5%] pb-[2%]">
       <div  className="grid md:grid-cols-2">
         <div>
           <h1 className="font-extrabold text-start font-serif text-[32px] ">

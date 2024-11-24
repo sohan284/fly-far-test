@@ -31,7 +31,7 @@ const Reviews = () => {
       <div className="container mx-auto">
         <h1
           data-aos="fade-up"
-          className="pt-[8%] text-[#EBFE19] font-extrabold font-serif text-[32px] max-w-[800px] mx-auto"
+          className="pt-[8%] text-[#a4de5e] font-extrabold font-serif text-[32px] max-w-[800px] mx-auto"
         >
           "Scaling Excellence, Elevating Success"
         </h1>
@@ -47,7 +47,7 @@ const Reviews = () => {
             <p data-aos="fade-up" className="text-lg font-semibold text-[wheat] uppercase tracking-wider">
               Refers
             </p>
-            <h1  className="text-6xl font-extrabold text-[#2a7dca] mt-2">
+            <h1  className="text-6xl font-extrabold text-[#a4de5e] mt-2">
               {/* Play the count-up only when it's in view */}
               {refersInView && <CountUp end={10} delay={1} />}k
               <span className=" text-4xl">+</span>
@@ -68,7 +68,7 @@ const Reviews = () => {
             <p data-aos="fade-up" className="text-lg font-semibold text-[wheat] uppercase tracking-wider">
               Companies
             </p>
-            <h1 className="text-6xl font-extrabold text-[#2a7dca] mt-2">
+            <h1 className="text-6xl font-extrabold text-[#a4de5e] mt-2">
               {/* Play the count-up only when it's in view */}
               {companiesInView && <CountUp end={1000} delay={1} />}+
             </h1>
@@ -82,7 +82,7 @@ const Reviews = () => {
 
         <h1
           data-aos="fade-up"
-          className="pt-[5%] font-extrabold text-[#EBFE19] font-serif text-[32px] max-w-[700px] mx-auto"
+          className="pt-[5%] font-extrabold text-[#a4de5e] font-serif text-[32px] max-w-[700px] mx-auto"
         >
           What Our Customers Are Saying
         </h1>
@@ -104,8 +104,8 @@ const Reviews = () => {
               data-aos="zoom-in"
               className="text-start h-[300px] w-[250px] mx-5 overflow-hidden rounded-lg shadow-xl bg-[#4747472a] text-white p-5"
             >
-              <h3 className="text-[20px] font-semibold text-blue-400">{review.name}</h3>
-              <p className="text-sm text-yellow-500">{review.designation}</p>
+              <h3 className="text-[20px] font-semibold text-[#a4de5e]">{review.name}</h3>
+              <p className="text-sm text-[#a7c97d]">{review.designation}</p>
               <Rating rating={review.rating} />
               <p className="text-[16px] font-[300] mt-5 text-[wheat]">{review.review}</p>
             </div>

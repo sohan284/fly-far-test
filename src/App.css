@@ -1,31 +1,26 @@
 body{
-    background-color: #000000;
+    background-color: #43cf7b;
     color: wheat;
 }
-/* .bannerSection{
-    background: radial-gradient(circle at center,
-            #006432,
-            #000000ec 50%);
-    
-    color: white;
-} */
+
 
 .companySection{
-    background: radial-gradient(circle at right center ,
-            #7a6e00,#006432 30%,
-            #000000ec 80%);
-    color: wheat;
+    background: radial-gradient(circle at left top ,
+            #a2e055 10%,
+            #89d964 50%,
+            #1bc888 80%);
+    color: #ef2575;
 }
 .reviewSection{
-  background: radial-gradient(circle at center , #006432,
-  #000000ec 40%);
+  background: radial-gradient(circle at bottom , #dd3075,
+  #94639d 40%);
    color: white;
 }
 .packageSection{
     background: radial-gradient(circle at  center,
     
-    #006432,
-    #000000ec 40%);  color: white;
+    #27b0bd,
+    #20c686 100%);  color: white;
 }
 .contactUsSection{
     background: radial-gradient(circle at  center,
@@ -33,7 +28,7 @@ body{
     #000000ec 40%);  color: white;
 }
 .emailSection{
-    background-image: linear-gradient(to right, rgb(150, 156, 72)55%, rgb(98, 212, 136)100%);  color: white;
+    background: radial-gradient( circle at center, #94639d 55%, #dd3075 100%);  color: white;
 }
 /* .emailShape {
     background-image: url('../src/assets/emailShape.png');
@@ -57,7 +52,7 @@ body{
     width: 100vw; 
     height: 100vh; 
     z-index: -10; 
-    background: linear-gradient(to top right,  #006432, #001950);
+    background: linear-gradient(to top right,  #20c686, #29a9ce);
     background-size: cover; 
     background-position: center;  
   }

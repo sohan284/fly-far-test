@@ -42,10 +42,10 @@ const ContactUs = () => {
   };
 
   return (
-    <div className=" pt-10 content-center text-[wheat] text-center px-5">
+    <div id="contact-us" className=" pt-10 content-center text-[wheat] text-center px-5">
      
       <div data-aos="zoom-in" className="container mx-auto">
-        <h1 className="font-extrabold text-[#a4de5e] font-serif text-[32px] max-w-[400px] mx-auto">
+        <h1 className="font-extrabold text-[#ffec42] font-serif text-[32px] max-w-[400px] mx-auto">
           Get In Touch
         </h1>
         <div className="emailSection  mx-auto  rounded-3xl mt-3 px-3">

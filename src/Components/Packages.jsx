@@ -52,7 +52,7 @@ const Packages = () => {
   ];
 
   return (
-    <div className="min-h-screen packageSection text-center px-3 pb-10 pt-20">
+    <div id="packages" className="min-h-screen packageSection text-center px-3 pb-10 pt-20">
       <div data-aos="fade-up" className="max-w-[1200px] mx-auto">
         <h1 className=" pt-[5%] font-extrabold font-serif text-[32px] max-w-[800px] mx-auto text-[#ffec42]">
           Get referred to your dream job.

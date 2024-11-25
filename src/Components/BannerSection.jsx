@@ -7,7 +7,7 @@ import animationData from "../assets/robot.json";
 
 const BannerSection = () => {
   return (
-    <div className="min-h-screen bannerSection text-white flex flex-col text-center">
+    <div id="banner" className="min-h-screen bannerSection text-white flex flex-col text-center">
       <div className="area">
         {" "}
         {/* Fixed area covering full viewport */}

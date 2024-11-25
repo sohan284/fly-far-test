@@ -27,7 +27,7 @@ const Reviews = () => {
   });
 
   return (
-    <div className="min-h-screen reviewSection text-center px-5 py-10 ">
+    <div id="reviews" className="min-h-screen reviewSection text-center px-5 py-10 ">
       <div className="container mx-auto">
         <h1
           data-aos="fade-up"

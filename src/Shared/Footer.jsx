@@ -15,14 +15,49 @@ const Footer = () => {
         </div>
         <div className="grid grid-cols-2 text-zinc-400 md:mt-0 mt-10">
         <div className="grid gap-3 text-start">
-            <p className="cursor-pointer">About Us</p>
-            <p className="cursor-pointer">Companies</p>
-            <p className="cursor-pointer">Packages</p>
-            <p className="cursor-pointer">Reviews</p>
-            <p className="cursor-pointer">Contact us</p>
-        </div>
-        <div className="text-start">
-            <p>Privacy Policy</p>
+        <a
+                href="#banner"
+                className="cursor-pointer text-[#89b454] hover:text-yellow-400"
+              >
+                About Us
+              </a>
+              <a
+                href="#company-section"
+                className="cursor-pointer text-[#89b454] hover:text-yellow-400"
+              >
+                Companies
+              </a>
+              <a
+                href="#resume"
+                className="cursor-pointer text-[#89b454] hover:text-yellow-400"
+              >
+                Resume
+              </a>
+              <a
+                href="#packages"
+                className="cursor-pointer text-[#89b454] hover:text-yellow-400"
+              >
+                Packages
+              </a>
+              <a
+                href="#reviews"
+                className="cursor-pointer text-[#89b454] hover:text-yellow-400"
+              >
+                Reviews
+              </a>
+              <a
+                href="#skills"
+                className="cursor-pointer text-[#89b454] hover:text-yellow-400"
+              >
+                Skills
+              </a> </div>
+        <div className="text-start text-[#89b454]">
+        <a
+                href="#contact-us"
+                className="cursor-pointer text-[#89b454] hover:text-yellow-400"
+              >
+                Contact Us
+              </a> 
         </div>
         </div>
       </div>

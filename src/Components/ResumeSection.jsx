@@ -4,7 +4,7 @@ import Marquee from "react-fast-marquee";
 
 const ResumeSection = () => {
   return (
-    <div className=" bannerSection text-white flex flex-col text-center">
+    <div id="resume" className=" bannerSection text-white flex flex-col text-center">
       <div className="area">
         {" "}
         {/* Fixed area covering full viewport */}

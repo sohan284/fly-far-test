@@ -2,7 +2,9 @@ body{
     background-color: #43cf7b;
     color: wheat;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 
 .companySection{
     background: radial-gradient(circle at left top ,
@@ -14,6 +16,11 @@ body{
 .reviewSection{
   background: radial-gradient(circle at bottom , #dd3075,
   #94639d 40%);
+   color: white;
+}
+.skillSection{
+  background: radial-gradient(circle at top center , #dd3075,
+  #94639d 60%);
    color: white;
 }
 .packageSection{

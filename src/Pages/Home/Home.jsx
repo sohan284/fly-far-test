@@ -5,6 +5,8 @@ import Packages from "../../Components/Packages";
 import ContactUs from "../../Components/ContactUs";
 import BannerSection from '../../Components/BannerSection';
 import ResumeSection from "../../Components/ResumeSection";
+import SkillSection from "../../Components/SkillSection";
+import WhyChooseSection from "../../Components/WhyChooseSection";
 const Home = () => {
   return (
     <div>
@@ -24,12 +26,14 @@ const Home = () => {
           <li></li>
         </ul>
       </div>
-      <BannerSection />
+      <BannerSection  />
       <CompanySection />
-      <ResumeSection/>
-      <Reviews />
-      <Packages />
-      <ContactUs />
+      <ResumeSection id="resume-section" />
+      <Reviews id="reviews" />
+      <SkillSection id="skill-section" />
+      <Packages id="packages" />
+      <WhyChooseSection id="why-choose" />
+      <ContactUs id="contact-us" />
       <Footer />
     </div>
   );

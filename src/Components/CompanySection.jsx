@@ -118,7 +118,7 @@ const CompanySection = () => {
        open={open}
        
      >
-       <DialogTitle style={{backgroundColor:'#89d964',color:'black'}}  sx={{ m: 0, p: 2 }} id="customized-dialog-title">
+       <DialogTitle style={{backgroundColor:'#6ead51',color:'wheat'}}  sx={{ m: 0, p: 2 }} id="customized-dialog-title">
          Join the Waitlist
        </DialogTitle>
        <IconButton
@@ -131,11 +131,11 @@ const CompanySection = () => {
            color: theme.palette.grey[500],
          })}
        >
-         <CloseIcon />
+         <CloseIcon style={{color:'wheat'}} />
        </IconButton>
-       <DialogContent style={{backgroundColor:'#89d964', padding:'50px'}} dividers>
+       <DialogContent style={{backgroundColor:'#6ead51', padding:'50px'}} dividers>
        <input
-               className="max-w-[400px] bg-[white] w-full p-3 border border-yellow-300 rounded-lg text-[black]"
+               className="max-w-[400px] bg-[wheat] w-full p-3 border border-yellow-300 rounded-lg text-[black]"
                type="email"
                placeholder="Write your email"
                value={email}

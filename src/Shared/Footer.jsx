@@ -51,17 +51,17 @@ const Footer = () => {
               >
                 Skills
               </a> </div>
-        <div className="text-start text-[#89b454]">
+        <div className="text-start">
         <a
                 href="#contact-us"
-                className="cursor-pointer text-[#89b454] hover:text-yellow-400"
+                className="cursor-pointer text-[#89b454]  hover:text-yellow-400"
               >
                 Contact Us
               </a> 
         </div>
         </div>
       </div>
-      <p className="text-zinc-400 mt-16">2024 refer-ai</p>
+      <p className="text-[#a4de5e] mt-16">2024 refer-ai</p>
     </div>
     </div>
   );

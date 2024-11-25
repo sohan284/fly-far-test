@@ -77,12 +77,12 @@ const CompanySection = () => {
   return (
     <div id="company-section"  className="min-h-screen companySection text-center p-5 ">
       <div className="container mx-auto">
-        <h1 data-aos="fade-up" className=" pt-[5%] font-extrabold font-serif text-[32px] max-w-[400px] mx-auto text-[#8a65a3]">
+        <h1 data-aos="fade-up" className=" pt-[5%] font-extrabold font-serif text-[32px] max-w-[400px] mx-auto text-[black]">
           Get referred by employees form 1000+ companies
         </h1>
         <button data-aos="zoom-in" onClick={handleClickOpen} className="bg-[#8a65a3] transition-transform ease-linear text-[wheat] md:w-[300px] uppercase my-3 rounded-full p-3 text-[16px] mx-auto font-bold hover:scale-105">Get Referred Now</button>
      
-        <p data-aos="fade-up" className="lg:text-xl text-[#8a65a3] font-[300] max-w-[400px] mx-auto mt-2 text-[20px]">
+        <p data-aos="fade-up" className="lg:text-xl text-[black] font-[300] max-w-[400px] mx-auto mt-2 text-[20px]">
           Our referrer network is thousands strong and growing. Get referred to
           your dream job today, by employees at your dream company.
         </p>
@@ -100,7 +100,7 @@ const CompanySection = () => {
           {filteredCompanies.slice(0,32).map((company, index) => (
             <div data-aos="zoom-in"
               key={index}
-              className="flex flex-col items-center  text-[#8a65a3] p-3 rounded-xl shadow-lg font-semibold"
+              className="flex flex-col items-center  text-[black] p-3 rounded-xl shadow-lg font-semibold"
             >
               <div className="w-[48px] rounded-full">
                 <img src={company.url} alt="" className="w-full rounded-full" />

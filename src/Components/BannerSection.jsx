@@ -25,13 +25,13 @@ const BannerSection = () => {
         </ul>
       </div>
 
-      <h2 data-aos="fade-up" className="md:mt-[2%] mt-[10%] text-[#ffeb3e] font-bold text-[32px] lg:text-[48px] text-wrap">
+      <h2 data-aos="fade-up" className="md:mt-[2%] mt-[10%] text-[black] font-bold text-[32px] lg:text-[48px] text-wrap">
         Request job referrals in <br />
-        <span className="text-[#7bd56a]"> seconds</span>
+        <span className="text-[black]"> seconds</span>
       </h2>
 
       <div className="grid md:grid-cols-2 gap-3 mt-5 grid-cols-1 max-w-[1000px] mx-auto ">
-        <div data-aos="fade-up" className="h-12 mx-auto flex p-2 items-center rounded-xl text-[wheat] border-[wheat] border ">
+        <div data-aos="fade-up" className="h-12 mx-auto flex p-2 items-center rounded-xl text-[black] border-[black] border ">
           <img
             className="h-full rounded-lg mr-2"
             src="https://i.ibb.co.com/DQb8kZm/intel.png"
@@ -40,7 +40,7 @@ const BannerSection = () => {
           Someone at <span className="font-bold mx-1">Intel</span> wants to
           refer you.
         </div>
-        <div data-aos="fade-up" className="h-12 mx-auto flex p-2 items-center rounded-xl text-[wheat] border-[wheat] border ">
+        <div data-aos="fade-up" className="h-12 mx-auto flex p-2 items-center rounded-xl text-[black] border-[black] border ">
           <img
             className="h-full rounded-lg mr-2"
             src="https://i.ibb.co.com/84Fb221/google.jpg"

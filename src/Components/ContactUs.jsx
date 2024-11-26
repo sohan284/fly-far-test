@@ -45,17 +45,16 @@ const ContactUs = () => {
     <div id="contact-us" className=" pt-10 content-center text-[wheat] text-center px-5">
      
       <div data-aos="zoom-in" className="container mx-auto">
-        <h1 className="font-extrabold text-[#ffec42] font-serif text-[32px] max-w-[400px] mx-auto">
+        <div className="emailSection  mx-auto  rounded-3xl mt-3 px-3">
+        <h1 className="font-extrabold text-[#ffffff] font-serif text-[32px] max-w-[400px] mx-auto pt-10">
           Get In Touch
         </h1>
-        <div className="emailSection  mx-auto  rounded-3xl mt-3 px-3">
-      
           <div className="flex justify-center py-8 emailShape items-center gap-5 mt-3">
             <div>
-              <h4 className="text-[#cde451] mb-10 text-[20px] font-[300] max-w-[400px]">
+              <h4 className="text-[wheat] mb-10 text-[20px] font-[300] max-w-[400px]">
                 We don't judge you on your past work, what matters is your intent for the present and attitude for future.
               </h4>
-              <p className="text-[#cde451] font-[300] my-2 text-[16px] max-w-[400px]">Drop your email to us and we will find you with opportunities that match your ambitions!</p>
+              <p className="text-[wheat] font-[300] my-2 text-[16px] max-w-[400px]">Drop your email to us and we will find you with opportunities that match your ambitions!</p>
               
               {/* Email input field */}
               <input

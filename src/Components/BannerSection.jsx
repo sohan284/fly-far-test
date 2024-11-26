@@ -34,10 +34,10 @@ const BannerSection = () => {
         <div data-aos="fade-up" className="h-12 mx-auto flex p-2 items-center rounded-xl text-[black] border-[black] border ">
           <img
             className="h-full rounded-lg mr-2"
-            src="https://i.ibb.co.com/DQb8kZm/intel.png"
+            src="https://i.ibb.co.com/G0hyMKf/apple.jpg"
             alt=""
           />{" "}
-          Someone at <span className="font-bold mx-1">Intel</span> wants to
+          Someone at <span className="font-bold mx-1">Apple</span> wants to
           refer you.
         </div>
         <div data-aos="fade-up" className="h-12 mx-auto flex p-2 items-center rounded-xl text-[black] border-[black] border ">
@@ -53,8 +53,8 @@ const BannerSection = () => {
 
       <div className="flex justify-center md:mt-10 mt-5">
         <div className="grid grid-cols-1 md:grid-cols-3 max-w-[1000px] ">
-          <div data-aos="zoom-in" className="mx-5">
-            <img src={phone} alt="" />
+          <div data-aos="zoom-in" className="mx-auto my-auto">
+            <img src={phone} className="h-[300px]" alt="" />
           </div>
           <div data-aos="zoom-in" className="mt-5 mx-5">
             <h1 className="text-[32px] uppercase text-black font-semibold">

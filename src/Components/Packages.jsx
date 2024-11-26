@@ -54,10 +54,10 @@ const Packages = () => {
   return (
     <div id="packages" className="min-h-screen packageSection text-center px-3 pb-10 pt-20">
       <div data-aos="fade-up" className="max-w-[1200px] mx-auto">
-        <h1 className=" pt-[5%] font-extrabold font-serif text-[32px] max-w-[800px] mx-auto text-[#ffec42]">
+        <h1 className=" pt-[5%] font-extrabold font-serif text-[32px] max-w-[800px] mx-auto text-[#FFFFFF]">
           Get referred to your dream job.
         </h1>
-        <p className="text-[20px] font-[300] text-[wheat] max-w-[700px] mx-auto mt-2">
+        <p className="text-[20px] font-[300] text-[#FFFFFF] max-w-[700px] mx-auto mt-2">
           Let our platform do the heavy lifting by connecting you with thousands
           of employees, who want to refer you.
         </p>
@@ -91,18 +91,18 @@ const Packages = () => {
             data-aos="zoom-in"
             className="text-start rounded-lg shadow-xl bg-[#4747472a] text-zinc-100 lg:p-8 p-3  "
           >
-            <h3 className="text-2xl font-semibold">Free Plan</h3>
+            <h3 className="text-2xl text-[#222222] font-semibold">Free Plan</h3>
             <h1 className="text-lg my-5">
-              <span className="text-[48px] text-[#a4de5e] font-bold">$0</span>
+              <span className="text-[48px] text-[#222222] font-bold">$0</span>
               
             </h1>
             <p className="text-[14px] font-[300]">
               If you just want to test out our product and send a referral
-              request to one company, once a week. This is for those who have no
+              request to a company, once a week. This is for who have no
               need for a new job any time soon.
             </p>
-            <button className="w-full border border-zinc-100 rounded-xl my-4 p-0.5 font-medium hover:bg-[#a4de5e]">
-              Sign Up
+            <button className="w-full rounded-xl my-4 p-1 font-medium hover:scale-105 hover:ease-linear transition-all duration-300 text-white bg-[#222222]">
+           Sign up
             </button>
             {options1.map((feature, index) => (
               <p
@@ -111,10 +111,11 @@ const Packages = () => {
               >
                 <MdDone
                   style={{
-                    color: "black",
+                    color: "white",
                     fontWeight: "bolder",
                     marginRight: "5px",
-                    backgroundColor:'white',
+                    backgroundImage:
+                      "linear-gradient(to right, #111111, #888888)",
                     borderRadius: "50px",
                     padding: "2px",
                   }}
@@ -127,9 +128,9 @@ const Packages = () => {
             data-aos="zoom-in"
             className="text-start rounded-lg shadow-xl bg-[#4747472a] text-zinc-100 lg:p-8 p-3"
           >
-            <h3 className="text-2xl font-semibold text-[#a4de5e]">3 Months Plan</h3>
+            <h3 className="text-2xl font-semibold text-[#222222]">3 Months Plan</h3>
             <h1 className="text-lg my-5">
-              <span className="text-[48px] text-[#a4de5e] font-bold">
+              <span className="text-[48px] text-[#222222] font-bold">
                 $499
               </span>
              
@@ -139,7 +140,7 @@ const Packages = () => {
               start getting referred to multiple roles across several companies
               starting today.
             </p>
-            <button className="w-full rounded-xl my-4 p-1 font-medium hover:scale-105 hover:ease-linear transition-all duration-300 text-black bg-[#a4de5e]">
+            <button className="w-full rounded-xl my-4 p-1 font-medium hover:scale-105 hover:ease-linear transition-all duration-300 text-white bg-[#222222]">
               Subscribe
             </button>
 
@@ -154,7 +155,7 @@ const Packages = () => {
                     fontWeight: "bolder",
                     marginRight: "5px",
                     backgroundImage:
-                      "linear-gradient(to right, #a4de5e, #20c686)",
+                      "linear-gradient(to right, #111111, #888888)",
                     borderRadius: "50px",
                     padding: "2px",
                   }}
@@ -167,9 +168,9 @@ const Packages = () => {
             data-aos="zoom-in"
             className="text-start rounded-lg shadow-xl bg-[#4747472a] text-zinc-100 lg:p-8 p-3"
           >
-            <h3 className="text-2xl font-semibold text-[#a4de5e]">6 Months Plan</h3>
+            <h3 className="text-2xl font-semibold text-[#222222]">6 Months Plan</h3>
             <h1 className="text-lg my-5">
-              <span className="text-[48px] text-[#a4de5e] font-bold">
+              <span className="text-[48px] text-[#222222] font-bold">
                 $899
               </span>
     
@@ -179,7 +180,7 @@ const Packages = () => {
               start getting referred to multiple roles across several companies
               starting today.
             </p>
-            <button className="w-full rounded-xl my-4 p-1 font-medium hover:scale-105 hover:ease-linear transition-all duration-300 text-black bg-[#a4de5e]">
+            <button className="w-full rounded-xl my-4 p-1 font-medium hover:scale-105 hover:ease-linear transition-all duration-300 text-white bg-[#222222]">
               Subscribe
             </button>
 
@@ -194,7 +195,7 @@ const Packages = () => {
                     fontWeight: "bolder",
                     marginRight: "5px",
                     backgroundImage:
-                      "linear-gradient(to right, #a4de5e, #20c686)",
+                      "linear-gradient(to right, #111111, #888888)",
                     borderRadius: "50px",
                     padding: "2px",
                   }}

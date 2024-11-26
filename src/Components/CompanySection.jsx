@@ -75,7 +75,7 @@ const CompanySection = () => {
     company.name?.toLowerCase().includes(searchQuery.toLowerCase())
   );
   return (
-    <div id="company-section"  className="min-h-screen companySection text-center p-5 ">
+    <div id="company-section"  className="min-h-screen companySection text-center p-5 pb-10">
       <div className="container mx-auto">
         <h1 data-aos="fade-up" className=" pt-[5%] font-extrabold font-serif text-[32px] max-w-[400px] mx-auto text-[black]">
           Get referred by employees form 1000+ companies

@@ -1,5 +1,5 @@
 import React from "react";
-
+import logo from '../assets/logo2.svg'
 const Footer = () => {
   return (
     <div data-aos="zoom-in" className="px-10">
@@ -7,11 +7,10 @@ const Footer = () => {
       <div  className="grid md:grid-cols-2">
         <div>
           <h1 className="font-extrabold text-start font-serif text-[32px] ">
-            Refer-AI
+          <div className="   container">
+  <img src={logo} className="w-[50%] lg:mx-0 mx-auto" alt="" />
+</div>
           </h1>
-          <h2 className="mt-[3%] text-start text-[wheat] font-normal text-[20px] text-wrap">
-            Request job referrals <br /> in seconds
-          </h2>
         </div>
         <div className="grid grid-cols-2 text-zinc-400 md:mt-0 mt-10">
         <div className="grid gap-3 text-start">
@@ -58,10 +57,12 @@ const Footer = () => {
               >
                 Contact Us
               </a> 
+              <p className="text-[wheat] mt-5">vettalink@gmail.com
+              </p>
         </div>
         </div>
       </div>
-      <p className="text-[#111111] mt-16">2024 refer-ai</p>
+      <p className="text-[#a2ca6a] mt-16">2024 vettalink</p>
     </div>
     </div>
   );

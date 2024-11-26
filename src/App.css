@@ -1,6 +1,17 @@
 body{
     background-color: #43cf7b;
     color: wheat;
+    font-family: "Roboto", sans-serif;
+}
+.title{
+   font-family: "Roboto Slab", serif;
+   font-size: 40px;
+   
+}
+.content_text{
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
 }
 html {
   scroll-behavior: smooth;
@@ -8,26 +19,26 @@ html {
 
 .companySection{
     background: radial-gradient(circle at left top ,
-            #a2e055 10%,
-            #89d964 50%,
-            #1bc888 80%);
+            #a5dd6136 10%,
+            #89d96457 50%,
+            #1bc889b6 80%);
     color: #ef2575;
 }
 .reviewSection{
-  background: radial-gradient(circle at bottom , #dd3075,
-  #94639d 40%);
+  background: radial-gradient(circle at top , #dd3075b0,
+  #b649adcc 40%);
    color: white;
 }
 .skillSection{
-  background: radial-gradient(circle at top center , #dd3075,
-  #94639d 60%);
+  background: radial-gradient(circle at bottom center , #dd3075b9,
+  #b649adcc 60%);
    color: white;
 }
 .packageSection{
     background: radial-gradient(circle at  center,
     
-    #27b0bd,
-    #20c686 100%);  color: white;
+    #27b0bd91,
+    #20c68698 100%);  color: white;
 }
 .contactUsSection{
     background: radial-gradient(circle at  center,
@@ -35,7 +46,7 @@ html {
     #000000ec 40%);  color: white;
 }
 .emailSection{
-    background: radial-gradient( circle at center, #94639d 55%, #dd3075 100%);  color: white;
+    background: radial-gradient( circle at center, #b649adcc 55%, #dd3075b0 100%);  color: white;
 }
 /* .emailShape {
     background-image: url('../src/assets/emailShape.png');
@@ -63,9 +74,6 @@ html {
     background-size: cover; 
     background-position: center;  
   }
-  
-
-
 .circles {
   position: absolute;
   top: 0;

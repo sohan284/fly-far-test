@@ -38,7 +38,7 @@ const ContactUs = () => {
       console.error("Error submitting email and creating user:", error);
     }
 
-    setEmail(""); // Reset email after submission
+    setEmail("");
   };
 
   return (
@@ -46,7 +46,7 @@ const ContactUs = () => {
      
       <div data-aos="zoom-in" className="container mx-auto">
         <div className="emailSection  mx-auto  rounded-3xl mt-3 px-3">
-        <h1 className="font-extrabold text-[#ffffff] font-serif text-[32px] max-w-[400px] mx-auto pt-10">
+        <h1 className="font-extrabold text-[#ffffff] title max-w-[400px] mx-auto pt-10">
           Get In Touch
         </h1>
           <div className="flex justify-center py-8 emailShape items-center gap-5 mt-3">

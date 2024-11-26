@@ -76,13 +76,14 @@ const CompanySection = () => {
   );
   return (
     <div id="company-section"  className="min-h-screen companySection text-center p-5 pb-10">
+      
       <div className="container mx-auto">
-        <h1 data-aos="fade-up" className=" pt-[5%] font-extrabold font-serif text-[32px] max-w-[400px] mx-auto text-[black]">
+        <h1 data-aos="fade-up" className=" pt-[5%] font-extrabold max-w-[800px] mx-auto text-[black] title">
           Get referred by employees form 1000+ companies
         </h1>
-        <button data-aos="zoom-in" onClick={handleClickOpen} className="bg-[#8a65a3] transition-transform ease-linear text-[wheat] md:w-[300px] uppercase my-3 rounded-full p-3 text-[16px] mx-auto font-bold hover:scale-105">Get Referred Now</button>
+        <button data-aos="zoom-in" onClick={handleClickOpen} className="bg-[#8a65a3] transition-transform ease-linear text-[wheat] md:w-[300px] uppercase my-3 rounded-lg p-3 text-[16px] mx-auto font-bold hover:scale-105">Get Referred Now</button>
      
-        <p data-aos="fade-up" className="lg:text-xl text-[black] font-[300] max-w-[400px] mx-auto mt-2 text-[20px]">
+        <p data-aos="fade-up" className="lg:text-xl text-[black] max-w-[400px] mx-auto mt-2 content_text">
           Our referrer network is thousands strong and growing. Get referred to
           your dream job today, by employees at your dream company.
         </p>
@@ -90,11 +91,11 @@ const CompanySection = () => {
           <input
             type="text"
             placeholder="Search..."
-            className="md:w-72 py-1.5 pl-2 border t  bg-[#eb008900] border-[#8a65a3] rounded-md focus:outline-none focus:border-[#b44d91] text-[#8a65a3]"
+            className="md:w-72 py-1.5 pl-2 border t  bg-[#eb008900] border-[#8a65a3] rounded-md focus:outline-none focus:border-[#b44d91] text-[black] font-medium placeholder-[#b44d91]"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
           />
-          <FaSearch className="absolute top-3 right-3 text-[#8a65a3]" />
+          <FaSearch className="absolute top-3 right-3 text-[#634677]" />
         </div>
         <div className="grid md:grid-cols-5 lg:grid-cols-8 grid-cols-3 gap-5 mt-5">
           {filteredCompanies.slice(0,32).map((company, index) => (

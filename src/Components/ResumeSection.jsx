@@ -40,10 +40,10 @@ const ResumeSection = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 py-20 px-5">
         <div>
           <div data-aos="zoom-in" className="text-center  max-w-[700px] mx-auto lg:mt-[20%]">
-            <h1 className=" font-bold text-[black] font-serif text-[32px]">
+            <h1 className=" font-bold text-[#fddc00] title">
               Perfect your resume with ReferAI
             </h1>
-            <h2 data-aos="zoom-in" className="mt-[1%] text-[black] text-[20px] font-[300] text-wrap">
+            <h2 data-aos="zoom-in" className="mt-[1%] text-[black] content_text text-wrap">
               Our AI feedback tool will help you create a resume that will get
               you noticed by recruiters and hiring managers. Our in house ATS
               optimized resume builder will help you create a resume that is

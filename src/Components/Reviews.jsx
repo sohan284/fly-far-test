@@ -28,12 +28,28 @@ const Reviews = () => {
 
   return (
     <div id="reviews" className="min-h-screen reviewSection text-center px-5 py-10 ">
+       <div className="area">
+        {" "}
+        {/* Fixed area covering full viewport */}
+        <ul className="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
       <div className="container mx-auto">
         <h1
           data-aos="fade-up"
-          className="pt-[8%] text-[#F1E6A8] font-extrabold font-serif text-[32px] max-w-[800px] mx-auto"
+          className="pt-[8%] text-[#F1E6A8] font-extrabold title text-[40px] max-w-[800px] mx-auto"
         >
-          "Scaling Excellence, Elevating Success"
+          Scaling Excellence, Elevating Success
         </h1>
         <div
           className="grid mx-auto max-w-[1000px] grid-cols-1 sm:grid-cols-2 gap-10 text-zinc-200 bg-transparent py-12 mb-20 px-6"
@@ -47,12 +63,12 @@ const Reviews = () => {
             <p data-aos="fade-up" className="text-lg font-semibold text-[wheat] uppercase tracking-wider">
               Refers
             </p>
-            <h1  className="text-6xl font-extrabold text-[#F1E6A8] mt-2">
+            <h1  className="text-6xl font-extrabold text-[blue] mt-2">
               {/* Play the count-up only when it's in view */}
               {refersInView && <CountUp end={10} delay={1} />}k
               <span className=" text-4xl">+</span>
             </h1>
-            <p data-aos="fade-up" className="text-lg mt-4 text-[20px] font-[300] text-[wheat] opacity-80">
+            <p data-aos="fade-up" className="mt-4 content_text text-[wheat] opacity-80">
               We've successfully managed over 10,000 referrals, demonstrating
               our extensive experience and commitment to delivering high-quality
               services with precision and care.
@@ -68,11 +84,11 @@ const Reviews = () => {
             <p data-aos="fade-up" className="text-lg font-semibold text-[wheat] uppercase tracking-wider">
               Companies
             </p>
-            <h1 className="text-6xl font-extrabold text-[#F1E6A8] mt-2">
+            <h1 className="text-6xl font-extrabold text-[blue] mt-2">
               {/* Play the count-up only when it's in view */}
               {companiesInView && <CountUp end={1000} delay={1} />}+
             </h1>
-            <p data-aos="fade-up" className="text-[20px] font-[300] mt-4 text-[wheat] opacity-80">
+            <p data-aos="fade-up" className="content_text mt-4 text-[wheat] opacity-80">
               We proudly serve over 1000+ companies worldwide, providing
               exceptional support and tailored solutions that exceed
               expectations and foster long-lasting relationships.
@@ -82,14 +98,14 @@ const Reviews = () => {
 
         <h1
           data-aos="fade-up"
-          className="pt-[5%] font-extrabold text-[#F1E6A8] font-serif text-[32px] max-w-[700px] mx-auto"
+          className="pt-[5%] font-extrabold text-[#F1E6A8] title max-w-[700px] mx-auto"
         >
           What Our Customers Are Saying
         </h1>
 
         <p
           data-aos="fade-up"
-          className="text-[20px] text-[wheat] font-[300] max-w-[700px] px-3 mx-auto mt-2"
+          className="content_text text-[wheat]  max-w-[700px] px-3 mx-auto mt-2"
         >
           Don't just take our word for it! Hear from professionals across
           industries who trust our product. From seamless integrations to
@@ -104,10 +120,10 @@ const Reviews = () => {
               data-aos="zoom-in"
               className="text-start h-[300px] w-[250px] mx-5 overflow-hidden rounded-lg shadow-xl bg-[#4747472a] text-white p-5"
             >
-              <h3 className="text-[20px] font-semibold text-[#F1E6A8]">{review.name}</h3>
+              <h3 className="text-[20px] font-semibold text-[#c9fe80]">{review.name}</h3>
               <p className="text-sm text-[wheat]">{review.designation}</p>
               <Rating rating={review.rating} />
-              <p className="text-[16px] font-[300] mt-5 text-[wheat]">{review.review}</p>
+              <p className="content_text mt-5 text-[wheat]">{review.review}</p>
             </div>
           ))}
         </Marquee>

@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import mobile1 from '../assets/phone1.1.png';
-import mobile2 from '../assets/phone1.2.png';
+import mobile2 from '../assets/phone1.4.png';
 import mobile3 from '../assets/phone1.3.png';
 import { useState } from 'react';
 
@@ -18,11 +18,11 @@ const SkillSection = () => {
   <div className='max-w-[1000px] mx-auto pb-20'>
          <h1
           data-aos="fade-up"
-          className="pt-[8%] text-[#F1E6A8] font-extrabold font-serif text-[32px] max-w-[800px] mx-auto px-3 text-center"
+          className="pt-[8%] text-[#F1E6A8] font-extrabold title max-w-[800px] mx-auto px-3 text-center"
         >
-          "Your Skills, Validated and Recognized "
+          Your Skills, Validated and Recognized
         </h1>
-        <p data-aos="fade-up" className="lg:text-xl text-[wheat] font-[300] max-w-[400px] mx-auto mt-2 text-[20px] pb-20 text-center">
+        <p data-aos="fade-up" className="lg:text-xl text-[wheat] max-w-[800px] mx-auto mt-2 content_text pb-20 text-center">
         Showcase your expertise with confidence, backed by real-world recognition. Let your skills speak for themselves and stand out in a competitive world.
         </p>
       <Swiper

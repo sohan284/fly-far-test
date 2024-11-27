@@ -118,12 +118,12 @@ const Reviews = () => {
             <div
               key={index}
               data-aos="zoom-in"
-              className="text-start h-[300px] w-[250px] mx-5 overflow-hidden rounded-lg shadow-xl bg-[#4747472a] text-white p-5"
+              className="text-start h-[350px] w-[250px] mx-5 overflow-hidden rounded-lg shadow-xl bg-[#4747472a] text-white p-5"
             >
               <h3 className="text-[20px] font-semibold text-[#c9fe80]">{review.name}</h3>
               <p className="text-sm text-[wheat]">{review.designation}</p>
               <Rating rating={review.rating} />
-              <p className="content_text mt-5 text-[wheat]">{review.review}</p>
+              <p className="content_text mt-5 text-[wheat]">{review.review.slice(0,200)}</p>
             </div>
           ))}
         </Marquee>

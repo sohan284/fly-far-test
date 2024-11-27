@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { MdDone } from "react-icons/md";
+import { MdClose, MdDone } from "react-icons/md";
 const Packages = () => {
   const [active, setActive] = useState("Monthly");
   const [amount, setAmount] = useState(20);
@@ -11,20 +11,29 @@ const Packages = () => {
     }
   };
   const options1 = [
-    // "Priority Job Requests",
+    "Priority Job Requests",
     "Swipes     (10/days)",
-    // "Access to Premium Jobs",
+    "Access to Premium Jobs",
     "Free Skill Interviews    (1 skill)",
-    // "Resume Screening Discount",
-    // "Premium Events Access",
-    // "Advanced Job Filters",
-    // "Priority Customer Support",
-    // "Enhanced Profile Visibility",
+    "Resume Screening Discount",
+    "Premium Events Access",
+    "Advanced Job Filters",
+    "Priority Customer Support",
+    "Enhanced Profile Visibility",
     "Extended Resume Storage   (1 version only)",
     "Resumes   (1 at a time)",
     "Referral Requests    (1 in a month)",
     "Events",
     "Latest Job News",
+  ];
+  const premiumOptions = [
+    "Priority Job Requests",
+    "Access to Premium Jobs",
+    "Resume Screening Discount",
+    "Premium Events Access",
+    "Advanced Job Filters",
+    "Priority Customer Support",
+    "Enhanced Profile Visibility",
   ];
   const options2 = [
     "Priority Job Requests",
@@ -50,7 +59,7 @@ const Packages = () => {
     "Enhanced Profile Visibility",
     "Extended Resume Storage",
   ];
-
+  const isPremium = (feature) => premiumOptions.includes(feature);
   return (
     <div id="packages" className="min-h-screen packageSection text-center px-3 pb-10 pt-20">
       <div data-aos="fade-up" className="container mx-auto">
@@ -61,31 +70,6 @@ const Packages = () => {
           Let our platform do the heavy lifting by connecting you with thousands
           of employees, who want to refer you.
         </p>
-        {/* <div className="mt-10 py-2 px-2 rounded-full bg-white inline-block">
-          <button
-            onClick={() => handlePlanButton("Monthly")}
-            className={`p-1 rounded-full px-3 ${
-              active === "Monthly"
-                ? "bg-[#94639d] text-white"
-                : " text-black bg-white"
-            }`}
-          >
-            Monthly
-          </button>
-          <button
-            onClick={() => handlePlanButton("Yearly")}
-            className={`p-1 rounded-full px-3 ${
-              active === "Yearly"
-                ? "bg-[#94639d] text-white"
-                : " text-black bg-white"
-            }`}
-          >
-            Yearly{" "}
-            <span className="text-xs ml-2 bg-[#94639d] p-0.5 rounded-md px-1.5 text-zinc-100 font-medium">
-              Save 40%
-            </span>
-          </button>
-        </div> */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 grid-cols-1  gap-5 mt-12 mx-3">
           <div
             data-aos="zoom-in"
@@ -97,7 +81,7 @@ const Packages = () => {
               
             </h1>
             <p className="content_text font-[300]">
-              If you just want to test out our product and send a referral
+              If you just want to test our product send a
               request to a company, once a week. This is for who have no
               need for a new job any time soon.
             </p>
@@ -109,17 +93,26 @@ const Packages = () => {
                 key={index}
                 className="flex items-center font-semibold content_text my-2"
               >
-                <MdDone
-                  style={{
-                    color: "white",
+                {isPremium(feature)  ?  <MdClose  style={{
+                    color:  "white",
                     fontWeight: "bolder",
                     marginRight: "5px",
-                    backgroundImage:
-                      "linear-gradient(to right, #111111, #888888)",
+                    backgroundColor:  "dc2626 ",
                     borderRadius: "50px",
                     padding: "2px",
                   }}
-                />
+              /> : <MdDone
+              style={{
+                color:  "white",
+                fontWeight: "bolder",
+                marginRight: "5px",
+                backgroundColor: "green",
+                borderRadius: "50px",
+                padding: "2px",
+              }}
+            /> }
+               
+               
                 {feature}
               </p>
             ))}
@@ -154,8 +147,7 @@ const Packages = () => {
                     color: "white",
                     fontWeight: "bolder",
                     marginRight: "5px",
-                    backgroundImage:
-                      "linear-gradient(to right, #111111, #888888)",
+                    backgroundColor:'green',
                     borderRadius: "50px",
                     padding: "2px",
                   }}
@@ -194,8 +186,7 @@ const Packages = () => {
                     color: "white",
                     fontWeight: "bolder",
                     marginRight: "5px",
-                    backgroundImage:
-                      "linear-gradient(to right, #111111, #888888)",
+                    backgroundColor:'green',
                     borderRadius: "50px",
                     padding: "2px",
                   }}

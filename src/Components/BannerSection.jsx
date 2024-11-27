@@ -29,7 +29,7 @@ const BannerSection = () => {
           <li></li>
         </ul>
       </div>
-      <div className="w-[200px] mx-auto left-8 lg:absolute container">
+      <div className="w-[200px] mx-auto left-28 xl:absolute container">
         <img src={logo} alt="" />
         <p className="absolute left-[50%] top-[7.7%] lg:top-[52%] lg:left-[50%] text-[#0d230a]">
           A L
@@ -37,7 +37,7 @@ const BannerSection = () => {
       </div>
       <h2
         data-aos="fade-up"
-        className="md:mt-[2%] mt-[5%] text-[#fedd00] font-bold lg:text-[40px] text-wrap title"
+        className="mt-[5%] text-[#fedd00] font-bold lg:text-[40px] text-wrap title"
       >
         Request Job Referrals In Seconds
       </h2>
@@ -80,17 +80,17 @@ const BannerSection = () => {
               src={logoMain}
               alt=""
             />
-            <p className="absolute text-[24px] font-[800] text-[#333333] left-[45%] top-[33%] z-10">
-              App
+            <p className="absolute text-[24px] font-[800] text-[#333333] left-[35%] top-[34%] z-10">
+              Vettalink
             </p>
             <button className="absolute top-[45%] text-[12px] text-zinc-100 py-0.5 left-[32%] z-10 w-[145px] rounded bg-[#008b62]">
               Install
             </button>
             <div className="absolute top-[53%] text-[#333333] text-[10px] font-semibold py-0.5 left-[32%] z-10">
               <h1>Rating and Reviews</h1>
-              <h3 className="text-start font-semibold text-[32px] ml-3">4.8</h3>
+              <h3 className="text-start font-semibold text-[32px] ml-3">4.7</h3>
               <p className="text-yellow-500 absolute top-[45%] left-[65%]">
-                ★★★★★
+                ★★★★✰
               </p>
               <p className="absolute top-[65%] flex text-[8px] left-[65%]">
                 {"6,152"}{" "}

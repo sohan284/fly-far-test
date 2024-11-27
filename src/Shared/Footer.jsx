@@ -7,7 +7,7 @@ const Footer = () => {
       <div  className="grid md:grid-cols-2">
         <div>
           <h1 className="font-extrabold text-start font-serif text-[32px] ">
-          <div className="   container">
+          <div className="container">
   <img src={logo} className="w-[50%] lg:mx-0 mx-auto" alt="" />
 </div>
           </h1>
@@ -62,7 +62,7 @@ const Footer = () => {
         </div>
         </div>
       </div>
-      <p className="text-[#a2ca6a] mt-16">2024 vettalink</p>
+      <p className="text-[#a2ca6a] mt-16"><span className="text-lg">©</span>2024 vettalink</p>
     </div>
     </div>
   );

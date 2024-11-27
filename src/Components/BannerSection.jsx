@@ -88,7 +88,7 @@ const BannerSection = () => {
             </button>
             <div className="absolute top-[53%] text-[#333333] text-[10px] font-semibold py-0.5 left-[32%] z-10">
               <h1>Rating and Reviews</h1>
-              <h3 className="text-start font-semibold text-[32px] ml-3">4.</h3>
+              <h3 className="text-start font-semibold text-[32px] ml-3">4.7</h3>
               <p className="text-yellow-500 absolute top-[45%] left-[65%]">
                 ★★★★✰
               </p>

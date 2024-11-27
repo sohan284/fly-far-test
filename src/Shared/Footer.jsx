@@ -1,8 +1,6 @@
-import React from "react";
 import logo from "../assets/logo2.svg";
 import {
   FaAppStore,
-  FaGooglePlay,
   FaInstagram,
   FaLinkedin,
 } from "react-icons/fa";

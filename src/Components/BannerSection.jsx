@@ -29,9 +29,9 @@ const BannerSection = () => {
           <li></li>
         </ul>
       </div>
-      <div className="w-[200px] mx-auto left-28 xl:absolute container">
+      <div className="w-[250px] mx-auto left-28 xl:absolute container">
         <img src={logo} alt="" />
-        <p className="absolute left-[50%] top-[7.7%] lg:top-[52%] lg:left-[50%] text-[#0d230a]">
+        <p className="absolute top-[87px] left-[50%] xl:top-[52%] xl:left-[51%] text-[20px] text-[#0d230a]">
           A L
         </p>
       </div>
@@ -88,7 +88,7 @@ const BannerSection = () => {
             </button>
             <div className="absolute top-[53%] text-[#333333] text-[10px] font-semibold py-0.5 left-[32%] z-10">
               <h1>Rating and Reviews</h1>
-              <h3 className="text-start font-semibold text-[32px] ml-3">4.7</h3>
+              <h3 className="text-start font-semibold text-[32px] ml-3">4.</h3>
               <p className="text-yellow-500 absolute top-[45%] left-[65%]">
                 ★★★★✰
               </p>

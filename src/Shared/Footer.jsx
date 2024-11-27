@@ -20,7 +20,7 @@ const Footer = () => {
               <div className="container">
                 <img
                   src={logo}
-                  className="lg:w-[50%] w-[75%] lg:mx-0 mx-auto"
+                  className="lg:w-[50%] w-[250px] lg:mx-0 mx-auto"
                   alt=""
                 />
               </div>

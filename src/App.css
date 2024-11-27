@@ -25,13 +25,13 @@ html {
     color: #ef2575;
 }
 .reviewSection{
-  background: radial-gradient(circle at top , #dd3075b0,
-  #b649adcc 40%);
+  background: radial-gradient(circle at top , #e025706e,
+  #b33da99d 40%);
    color: white;
 }
 .skillSection{
-  background: radial-gradient(circle at bottom center , #dd3075b9,
-  #b649adcc 60%);
+  background: radial-gradient(circle at bottom center , #1bc8898c,
+  #fe156a98 60%);
    color: white;
 }
 .packageSection{

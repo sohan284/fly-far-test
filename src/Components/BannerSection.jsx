@@ -32,7 +32,7 @@ const BannerSection = () => {
       <div className="w-[250px] mx-auto left-28 xl:absolute container">
         <img src={logo} alt="" />
         <p className="absolute top-[87px] left-[50%] xl:top-[52%] xl:left-[51%] text-[20px] text-[#0d230a]">
-          A L
+          {/* A L */}
         </p>
       </div>
       <h2
@@ -154,7 +154,7 @@ const BannerSection = () => {
                 (window.location.href =
                   "https://play.google.com/store/apps/details?id=sg.lerna.com.marriottvacationclub&hl=en")
               }
-              className="w-[300px] mx-auto mt-3"
+              className="w-[300px] cursor-pointer hover:scale-105 ease-in-out transition-all mx-auto mt-3"
               src={google}
               alt=""
             />
@@ -171,7 +171,7 @@ const BannerSection = () => {
                 (window.location.href =
                   "https://apps.apple.com/gb/app/deep-sleep-sounds-relax/id6738437515")
               }
-              className="w-[300px] mx-auto md:mt-5"
+              className="w-[300px] mx-auto md:mt-5 cursor-pointer hover:scale-105 ease-in-out transition-all"
               src={apple}
               alt=""
             />

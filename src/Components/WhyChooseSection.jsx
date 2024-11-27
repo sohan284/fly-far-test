@@ -53,7 +53,7 @@ const WhyChooseSection = () => {
       >
         Why Choose Us
       </h1>
-      <div className="grid grid-cols-2 md:grid-cols-3 mt-10 gap-5">
+      <div className="grid grid-cols-1 md:grid-cols-3 mt-10 gap-5">
         {features.map(({ id, icon, title, description }) => (
           <div data-aos="fade-up" key={id} className="text-center mx-auto">
             <div className="flex justify-center ">{icon}</div>

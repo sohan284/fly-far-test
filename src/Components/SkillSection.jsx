@@ -1,8 +1,8 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import mobile1 from '../assets/phone1.1.png';
-import mobile2 from '../assets/phone1.4.png';
-import mobile3 from '../assets/phone1.3.png';
+import mobile1 from '../assets/phone1.png';
+import mobile2 from '../assets/phone2.png';
+import mobile3 from '../assets/phone3.png';
 import { useState } from 'react';
 
 const SkillSection = () => {
@@ -51,11 +51,12 @@ const SkillSection = () => {
         <SwiperSlide>
          <div className={`md:h-[600px] h-[400px] ${activeIndex === 0 ? ' -mr-[75%] md:mr-0':activeIndex===2 ? '-ml-[75%] md:ml-0' : "m-0"}`}>
          <div
-            className={`transition-all duration-300 ${
+            className={`transition-all duration-300 relative ${
               activeIndex === 1 ? 'h-[100%] -mx-10 md:mx-0' : 'h-[60%] mt-[35%]'
             }`}
           >
             <img data-aos="zoom-in" className="h-full object-contain w-full" src={mobile1} alt="Mobile 1" />
+        
           </div>
          </div>
         </SwiperSlide>

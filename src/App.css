@@ -48,6 +48,9 @@ html {
 .emailSection{
     background: radial-gradient( circle at center, #b649adcc 55%, #dd3075b0 100%);  color: white;
 }
+.footerSection{
+    background: radial-gradient( circle at center, #3c626b 55%, #000000b0 100%);  color: white;
+}
 /* .emailShape {
     background-image: url('../src/assets/emailShape.png');
     background-repeat: no-repeat;
@@ -70,7 +73,7 @@ html {
     width: 100vw; 
     height: 100vh; 
     z-index: -10; 
-    background: linear-gradient(to top right,  #20c686, #29a9ce);
+    background: linear-gradient(to bottom right,  #c8cdce, #1498b9);
     background-size: cover; 
     background-position: center;  
   }

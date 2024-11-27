@@ -54,11 +54,11 @@ const ContactUs = () => {
               <h4 className="text-[wheat] mb-10 text-[20px] font-[300] max-w-[400px]">
                 We don't judge you on your past work, what matters is your intent for the present and attitude for future.
               </h4>
-              <p className="text-[wheat] font-[300] my-2 text-[16px] max-w-[400px]">Drop your email to us and we will find you with opportunities that match your ambitions!</p>
+              <p className="text-[wheat] font-[300] my-2 text-[20px] max-w-[400px]">Drop your email to us and we will find you with opportunities that match your ambitions!</p>
               
               {/* Email input field */}
               <input
-                className="max-w-[400px] bg-[#91919171] w-full p-3 border border-[#a4de5e] rounded-lg text-[#a4de5e]"
+                className="max-w-[400px] bg-[#91919171] w-full p-3 border border-[#a4de5e] rounded-lg text-[black]"
                 type="email"
                 placeholder="Write your email"
                 value={email}
@@ -70,7 +70,7 @@ const ContactUs = () => {
 
               {/* Submit button */}
               <input
-                className="max-w-[400px] bg-[#a4de5e] border-[#a4de5e] border hover:opacity-85 uppercase text-black w-full p-3 font-medium  mt-5 rounded-lg"
+                className="max-w-[400px] bg-[#a4de5e] border-[#a4de5e] border hover:opacity-85 uppercase text-black w-full p-3 font-semibold  mt-5 rounded-lg"
                 type="submit"
                 value="Submit"
                 onClick={handleSubmit}

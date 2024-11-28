@@ -81,7 +81,7 @@ const BannerSection = () => {
               alt=""
             />
             <p className="absolute text-[24px] font-[800] text-[#333333] left-[35%] top-[34%] z-10">
-              Vettalink
+              VettaLink
             </p>
             <button className="absolute top-[45%] text-[12px] text-zinc-100 py-0.5 left-[32%] z-10 w-[145px] rounded bg-[#008b62]">
               Install

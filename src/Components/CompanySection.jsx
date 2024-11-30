@@ -58,13 +58,13 @@ const CompanySection = () => {
 
     try {
       await axios.post(`${baseUrl}/users`, { email }).then()
-      await fetch(
-        "https://script.google.com/macros/s/AKfycbzPKe47AhqL2zUE1AVp1QRzgB_cgSwFBfj_jvfod-XAqGUJiaBWHLPhQtBt4SRF-0rr/exec",
-        {
-          method: "POST",
-          body: formData,
-        }
-      );
+      // await fetch(
+      //   "https://script.google.com/macros/s/AKfycbxDa3ey_wrASfnJ-KLqomNxDy22KDJkUNyIgLX9jGKc7NvxpjmpTvMHTvv-Ct4wKFMa/exec",
+      //   {
+      //     method: "POST",
+      //     body: formData,
+      //   }
+      // );
     } catch (error) {
       console.error("Error submitting email and creating user:", error);
     }

@@ -13,6 +13,7 @@ import DialogActions from '@mui/material/DialogActions';
 import IconButton from '@mui/material/IconButton';
 import CloseIcon from '@mui/icons-material/Close';
 import Typography from '@mui/material/Typography';
+import toast from "react-hot-toast";
 const CompanySection = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const {
@@ -56,7 +57,7 @@ const CompanySection = () => {
     formData.append("Email", email);
 
     try {
-      await axios.post(`${baseUrl}/users`, { email });
+      await axios.post(`${baseUrl}/users`, { email }).then()
       await fetch(
         "https://script.google.com/macros/s/AKfycbzPKe47AhqL2zUE1AVp1QRzgB_cgSwFBfj_jvfod-XAqGUJiaBWHLPhQtBt4SRF-0rr/exec",
         {
@@ -67,7 +68,7 @@ const CompanySection = () => {
     } catch (error) {
       console.error("Error submitting email and creating user:", error);
     }
-
+    toast.success("Thanks for reaching out! Your email has been successfully submitted. We'll be in touch soon!");
     setEmail(""); // Reset email after submission
     setOpen(false)
   };

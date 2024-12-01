@@ -45,8 +45,8 @@ const WhyChooseSection = () => {
   ];
 
   return (
-    <div className="container rounded-xl mx-auto mt-10 p-3">
-    <div className="bg-[#237c7893] rounded-xl p-5 py-10">
+    <div className="container rounded-3xl mx-auto mt-10">
+    <div className="bg-[#237c7893] rounded-3xl shadow-lg p-5 py-10 lg:mx-0 mx-5">
     <h1
         data-aos="fade-up"
         className=" text-[#111111] font-extrabold title max-w-[1000px] mx-auto px-3 text-center "

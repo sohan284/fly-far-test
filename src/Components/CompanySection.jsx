@@ -99,7 +99,7 @@ const CompanySection = () => {
           <FaSearch className="absolute top-3 right-3 text-[#634677]" />
         </div>
         <div className="grid md:grid-cols-5 lg:grid-cols-8 grid-cols-3 gap-5 mt-5">
-          {filteredCompanies.slice(0,32).map((company, index) => (
+          {filteredCompanies.slice(0,24).map((company, index) => (
             <div data-aos="zoom-in"
               key={index}
               className="flex flex-col items-center  text-[black] p-3 rounded-xl shadow-lg font-semibold"

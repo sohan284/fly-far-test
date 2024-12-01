@@ -10,7 +10,7 @@ import { FaMeta } from "react-icons/fa6";
 import { FaThreads } from "react-icons/fa6";
 const Footer = () => {
   return (
-    <div data-aos="zoom-in" className="px-10">
+    <div data-aos="zoom-in" className="px-5">
       <div className=" px-10 text-[wheat] text-center footerSection container mx-auto bg-[#35353586] my-12 rounded-3xl pt-[5%] pb-[2%]">
         <div className="grid md:grid-cols-2">
           <div>

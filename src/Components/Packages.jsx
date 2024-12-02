@@ -86,7 +86,7 @@ const Packages = () => {
               need for a new job any time soon.
             </p>
             <button className="w-full rounded-lg my-4 p-1 font-medium hover:scale-105 hover:ease-linear transition-all duration-300 text-white bg-[#06281d] text-[28px]">
-           Sign up
+          Suscribe
             </button>
             {options1.map((feature, index) => (
               <p

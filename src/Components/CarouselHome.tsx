@@ -7,6 +7,13 @@ import slider4 from "../assets/sliderimg4.webp";
 import slider5 from "../assets/sliderimg5.webp";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
+// Add this declaration to handle image imports
+declare module "*.webp" {
+  const content: string;
+  export default content;
+}
+
 export default function CarouselHome() {
   const sliderRef = useRef<Slider | null>(null);
 
@@ -18,7 +25,7 @@ export default function CarouselHome() {
     autoplay: true,
     autoplaySpeed: 5000,
     arrows: false,
-    appendDots: (dots: string) => (
+    appendDots: (dots: React.ReactNode) => (
       <div
         style={{
           position: "absolute",
@@ -46,10 +53,11 @@ export default function CarouselHome() {
     ),
   };
 
-  const sliderImages = [slider1, slider2, slider3, slider4, slider5];
+  // Define the image array with proper typing
+  const sliderImages: string[] = [slider1, slider2, slider3, slider4, slider5];
 
   return (
-    <div className="slider-container my-10  mx-auto relative">
+    <div className="slider-container my-10 mx-auto relative">
       <Slider ref={sliderRef} {...settings}>
         {sliderImages.map((image, index) => (
           <div key={index} className="relative w-full h-[220px]">

@@ -3,6 +3,8 @@ body{
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 10px;
+    font-family: sans-serif;
+    color: #202124;
 }
 .marquee-container {
     overflow: hidden;

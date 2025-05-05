@@ -1,0 +1,26 @@
+body{
+    background-color: #e9dfdf;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .marquee-text {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 20s linear infinite;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
